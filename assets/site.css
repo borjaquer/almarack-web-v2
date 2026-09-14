@@ -204,7 +204,7 @@ html{scrollbar-color:#243651 var(--bg)}
 @media (max-width:640px){.wa-float span{display:none}.wa-float{padding:14px}}
 
 @media (max-width:1100px){.nav__links,.nav__tel{display:none}.burger{display:grid}.steps{grid-template-columns:repeat(2,1fr)}.nums{grid-template-columns:repeat(2,1fr)}.nums div:nth-child(3){border-left:0;padding-left:0}.nums div:nth-child(n+3){border-top:1px solid var(--line)}.cov{grid-template-columns:repeat(2,1fr)}.hubs{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:900px){.hero__row,.panel__in,.meter,.spain,.why,.contact,.split,.band{grid-template-columns:1fr}.split--rev>:first-child{order:0}.band__cta{justify-self:start}.panel__list{justify-self:start;max-width:none}.panel{min-height:auto;position:relative}.panel__in{padding-block:64px}.gal{columns:2}.foot__grid{grid-template-columns:1fr 1fr}.hero__scroll{display:none}.regions{columns:1}.why__img{aspect-ratio:4/3}}
+@media (max-width:900px){.hero__row,.panel__in,.meter,.spain,.why,.contact,.split,.band{grid-template-columns:1fr}.split--rev>:first-child{order:0}.band__cta{justify-self:start}.panel__list{justify-self:start;max-width:none}.panel{min-height:auto;position:relative}.panel__in{padding-block:64px}.gal{columns:2}.foot__grid{grid-template-columns:1fr 1fr}.hero__scroll{display:none}.regions{columns:1}.why__img{aspect-ratio:auto}.why__img img{height:auto;object-fit:contain}}
 @media (max-width:620px){body{font-size:16px}.hero__cta .btn,.band__cta .btn{width:100%}.btn{white-space:normal;text-align:center}.steps,.nums,.cov,.hubs{grid-template-columns:1fr}.nums div{border-left:0!important;padding-left:0!important}.gal{columns:1}.foot__grid{grid-template-columns:1fr}.row{grid-template-columns:1fr;gap:2px}.poly{columns:1}.nav__end .btn{display:none}.hero__meta{grid-template-columns:1fr 1fr}.contact__cta .btn small{display:none}}
 
 /* zonas mega menu */
@@ -354,3 +354,5 @@ strong{color:var(--ink)}
   .hero__meta span{font-size:10.5px}
   .hero__bg::after{background:linear-gradient(180deg,rgba(11,18,32,.5) 0%,rgba(11,18,32,.3) 45%,rgba(11,18,32,.8) 85%,rgba(11,18,32,.9) 100%)}
 }
+
+.why__img img{object-position:50% 20%}
