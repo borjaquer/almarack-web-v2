@@ -46,7 +46,7 @@ const body = `
       <div class="hero__meta">
         <div><b>24/48 h</b><span>Urgencias</span></div>
         <div><b>45 min</b><span>Por puntal</span></div>
-        <div><b>−25 °C</b><span>Cámaras de frío</span></div>
+        <div><b>−25 °C</b><span>Frío</span></div>
       </div>
     </div>
   </div>
