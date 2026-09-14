@@ -1,18 +1,19 @@
 {
  "protecciones-cabecera-pasillo": {
-  "w": 899,
-  "h": 1600,
-  "src": "fragadis/2845005c-bcc6-4d98-9eb7-a0dbe702a776.jpg"
+  "w": 1751,
+  "h": 2400,
+  "src": "envases/2eca4501-fd5b-43c1-a2eb-f0e5a33d0d3d.jpg",
+  "edit": "muapi nano-banana-edit (cono eliminado) + ai-image-upscale"
  },
  "protecciones-pasillo-puntales": {
   "w": 1349,
   "h": 2400,
-  "src": "fragadis/IMG_0372.JPG"
+  "src": "fragadis/IMG_0374.JPG"
  },
  "protecciones-pasillo-puntales-2": {
   "w": 1349,
   "h": 2400,
-  "src": "fragadis/IMG_0374.JPG"
+  "src": "fragadis/IMG_0372.JPG"
  },
  "protecciones-protector-puntal-mpm": {
   "w": 1800,
@@ -27,7 +28,7 @@
  "protecciones-nave-fragadis": {
   "w": 1800,
   "h": 2400,
-  "src": "fragadis/28077aa1-1816-4d84-b482-5e7f8ed20435.jpg"
+  "src": "fragadis/2e752384-29f8-4690-a04c-93d3c62d58c2.jpg"
  },
  "protecciones-poster-seguridad": {
   "w": 927,
@@ -37,32 +38,33 @@
  "protecciones-nave-altura": {
   "w": 1800,
   "h": 2400,
-  "src": "fragadis/2e752384-29f8-4690-a04c-93d3c62d58c2.jpg"
+  "src": "fragadis/28077aa1-1816-4d84-b482-5e7f8ed20435.jpg"
  },
  "protecciones-barrera-nave-envases": {
   "w": 1800,
   "h": 2400,
-  "src": "envases/035c09e0-da64-407b-a7ed-d7fd45d5f00c.jpg"
+  "src": "envases/99f2a15c-870b-4107-b3aa-0bcfe3229ea9.jpg"
  },
  "protecciones-barrera-jaula": {
   "w": 1800,
   "h": 2400,
-  "src": "envases/8ef0e6b1-0810-4c52-9f5a-f22462843d23.jpg"
+  "src": "envases/65c706aa-b5ab-4f42-9e19-9780f19260cc.jpg"
  },
  "protecciones-paso-peatonal": {
+  "w": 1800,
+  "h": 2400,
+  "src": "raiz/36841bcc-3ce1-4db3-b36e-d054644071f7.jpg"
+ },
+ "protecciones-instalacion-operario": {
   "w": 2400,
   "h": 1800,
   "src": "envases/IMG_0538.jpeg"
  },
- "protecciones-instalacion-operario": {
-  "w": 1800,
-  "h": 2400,
-  "src": "envases/IMG_0542.jpeg"
- },
  "protecciones-jaula-maquina": {
   "w": 2400,
-  "h": 1800,
-  "src": "envases/IMG_0562.jpeg"
+  "h": 1751,
+  "src": "envases/IMG_0562.jpeg",
+  "edit": "muapi nano-banana-edit (cono eliminado) + ai-image-upscale"
  },
  "protecciones-protector-columna": {
   "w": 1800,
@@ -77,7 +79,7 @@
  "protecciones-nave-envases-pasillo": {
   "w": 1800,
   "h": 2400,
-  "src": "envases/aa69e648-7b8d-4396-a8d6-85fa93dc86ee.jpg"
+  "src": "envases/IMG_0558.jpeg"
  },
  "protecciones-conwey-quer-barrera": {
   "w": 1800,
@@ -107,7 +109,7 @@
  "entreplanta-estructura": {
   "w": 1800,
   "h": 2400,
-  "src": "raiz/20dfa0f2-c100-486e-b0fe-010f8d2e5065.jpg"
+  "src": "raiz/5a7f4fee-12fa-477f-9cce-350d2ad6f848.jpg"
  },
  "entreplanta-forjado-montaje": {
   "w": 1800,
@@ -125,14 +127,14 @@
   "src": "raiz/4baf8031-e093-4c89-af29-09d96b6bb054.jpg"
  },
  "protecciones-barrera-amarilla-nave": {
-  "w": 1350,
+  "w": 1800,
   "h": 2400,
-  "src": "raiz/76c3fac7-d4b7-4c80-9b4d-34eeec19e92b.jpg"
+  "src": "raiz/f30ba73e-d3d7-470f-af4a-e28e2cd7a28f.jpg"
  },
  "protecciones-linea-amarilla-nave": {
   "w": 1800,
   "h": 2400,
-  "src": "raiz/f30ba73e-d3d7-470f-af4a-e28e2cd7a28f.jpg"
+  "src": "envases/IMG_0559.jpeg"
  },
  "dano-puntal-base-golpe": {
   "w": 1024,
@@ -160,8 +162,8 @@
   "src": "inspecciones/1df08779-76ee-4624-a1b4-59562b55b374.jpg"
  },
  "inspeccion-camara-frio-epi": {
-  "w": 1272,
-  "h": 1696,
+  "w": 1800,
+  "h": 2400,
   "src": "inspecciones/888cff3e-92a9-4ffc-9378-3b56f05f1bd2.jpg"
  },
  "inspeccion-tecnico-revision": {
@@ -180,28 +182,28 @@
   "src": "fragadis/IMG_0375.JPG"
  },
  "protecciones-alineaciones-fragadis": {
-  "w": 1200,
-  "h": 1600,
-  "src": "fragadis/2ded1c75-9cbb-48cb-b5b9-44f515ce7363.jpg"
+  "w": 2400,
+  "h": 1800,
+  "src": "fragadis/c16baf7c-2d67-42b5-b778-69303069f958.jpg"
  },
  "protecciones-envases-vista": {
   "w": 1800,
   "h": 2400,
-  "src": "envases/IMG_0656.jpeg"
+  "src": "envases/99216533-3c68-44e8-ae5b-93cf68c0bbbc.jpg"
  },
  "protecciones-barrera-doble": {
   "w": 1800,
   "h": 2400,
-  "src": "envases/IMG_0641.jpeg"
+  "src": "envases/08a265ee-3304-440d-914a-adc51931583a.jpg"
  },
  "entreplanta-nave-vacia": {
   "w": 1800,
   "h": 2400,
-  "src": "raiz/56beaf56-dd66-441e-8872-6eb3fd17b02d.jpg"
+  "src": "raiz/96ba0fe7-f437-4080-bde8-5caa600a5fea.jpg"
  },
  "protecciones-jaula-automatica": {
   "w": 1800,
   "h": 2400,
-  "src": "raiz/d57bf8db-5b37-4923-add9-9f1899bcc94f.jpg"
+  "src": "envases/91facd0a-67f3-4284-9562-9325032851c8.jpg"
  }
 }
