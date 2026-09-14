@@ -137,7 +137,6 @@ function footer() {
     <ul><li><a href="/aviso-legal/">Aviso legal</a></li><li><a href="/politica-de-privacidad/">Privacidad</a></li><li><a href="/politica-de-cookies/">Cookies</a></li><li><a href="/sitemap.xml">Mapa del sitio</a></li></ul>
   </div>
 </div></footer>
-<a class="wa-float" href="${SITE.waUrgente}" target="_blank" rel="noopener" aria-label="WhatsApp urgente">${ICON.wa}<span>Urgencia · WhatsApp</span></a>
 <script src="/assets/site.js" defer></script>`;
 }
 

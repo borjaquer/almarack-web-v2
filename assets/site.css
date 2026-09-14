@@ -377,3 +377,13 @@ strong{color:var(--ink)}
   .feat h2{font-size:clamp(1.5rem,2.6vw,2.5rem)}
   .foot__big{font-size:clamp(2.4rem,7.5vw,7.2rem)}
 }
+
+/* escritorio: mismo aspecto que el zoom 80 % de Chrome, sin que el cliente toque nada */
+@media (min-width:1024px){
+  body{zoom:.8}
+  .hero{min-height:calc(100svh / .8)}
+  .panel,.phero{min-height:auto}
+  .phero{min-height:calc(62svh / .8)}
+  .nav{zoom:1}
+}
+.wa-float{display:none!important}
