@@ -24,7 +24,7 @@ Sitio corporativo de Almar-Rack S.L. (Guadalajara). Debe conseguir que el visita
 
 - Independiente y multimarca (Mecalux, AR Racking, Esmena/Esnova, Permar, Polypal, Stow): no vende estanterías nuevas, así que no tiene incentivo para dictaminar sustitución.
 - Distribuidor e instalador oficial de protecciones MPM Flexible Protections (polímero de memoria elástica).
-- Reparación in situ sin vaciar palés ni parar el almacén (≈45 min/puntal, hasta 70 % de ahorro frente a sustituir).
+- Reparación in situ = apuntalamiento hidráulico de la carga + SUSTITUCIÓN del tramo dañado (empalme homologado) o del puntal completo, sin vaciar palés (≈45 min/puntal). NUNCA "conformado/enderezado/devolver la geometría": Almarack no endereza puntales (corrección del usuario 2026-09-14).
 - Base en Guadalajara → respuesta urgente 24/48 h en el eje A-2 sin recargo por desplazamiento; cobertura nacional.
 - Trabajo en cámaras de frío a −25 °C.
 

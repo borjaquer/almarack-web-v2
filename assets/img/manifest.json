@@ -1,57 +1,32 @@
 {
- "montaje-bastidores-acopio": {
-  "w": 904,
-  "h": 1600,
-  "src": "montaje/ade0efa4-52d9-452c-acb2-fa7ddf358ff7.jpg"
- },
- "montaje-plataforma-elevadora": {
-  "w": 857,
-  "h": 857,
-  "src": "montaje/mantenimiento.jpg"
- },
- "montaje-pasillo-paletizacion": {
-  "w": 1050,
-  "h": 718,
-  "src": "montaje/estanteria 1.webp"
- },
- "montaje-camara-congelados": {
-  "w": 1024,
-  "h": 1536,
-  "src": "montaje/0e1a2519-8549-435c-a0ad-ea2293a35dd9.jpg"
- },
- "montaje-nave-paletizacion-larga": {
-  "w": 677,
-  "h": 457,
-  "src": "montaje/AR RAKIGN.jpg"
- },
  "protecciones-cabecera-pasillo": {
   "w": 899,
   "h": 1600,
   "src": "fragadis/2845005c-bcc6-4d98-9eb7-a0dbe702a776.jpg"
  },
  "protecciones-pasillo-puntales": {
-  "w": 900,
-  "h": 1600,
+  "w": 1349,
+  "h": 2400,
   "src": "fragadis/IMG_0372.JPG"
  },
  "protecciones-pasillo-puntales-2": {
-  "w": 900,
-  "h": 1600,
+  "w": 1349,
+  "h": 2400,
   "src": "fragadis/IMG_0374.JPG"
  },
  "protecciones-protector-puntal-mpm": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "fragadis/IMG_0378.jpeg"
  },
  "protecciones-barrera-mpm-detalle": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "fragadis/20260702_122940.heic"
  },
  "protecciones-nave-fragadis": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "fragadis/28077aa1-1816-4d84-b482-5e7f8ed20435.jpg"
  },
  "protecciones-poster-seguridad": {
@@ -60,108 +35,103 @@
   "src": "fragadis/image 2.png"
  },
  "protecciones-nave-altura": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "fragadis/2e752384-29f8-4690-a04c-93d3c62d58c2.jpg"
  },
  "protecciones-barrera-nave-envases": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "envases/035c09e0-da64-407b-a7ed-d7fd45d5f00c.jpg"
  },
  "protecciones-barrera-jaula": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "envases/8ef0e6b1-0810-4c52-9f5a-f22462843d23.jpg"
  },
  "protecciones-paso-peatonal": {
-  "w": 1600,
-  "h": 1200,
+  "w": 2400,
+  "h": 1800,
   "src": "envases/IMG_0538.jpeg"
  },
  "protecciones-instalacion-operario": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "envases/IMG_0542.jpeg"
  },
  "protecciones-jaula-maquina": {
-  "w": 1600,
-  "h": 1200,
+  "w": 2400,
+  "h": 1800,
   "src": "envases/IMG_0562.jpeg"
  },
  "protecciones-protector-columna": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "envases/IMG_0649.jpeg"
  },
  "protecciones-material-mpm-pale": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "envases/IMG_0660.jpeg"
  },
  "protecciones-nave-envases-pasillo": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "envases/aa69e648-7b8d-4396-a8d6-85fa93dc86ee.jpg"
  },
  "protecciones-conwey-quer-barrera": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "quer/IMG_0489.jpeg"
  },
  "protecciones-bolardo-mpm": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "quer/IMG_0493.jpeg"
  },
  "protecciones-bolardo-mpm-detalle": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "quer/IMG_0494.jpeg"
  },
  "protecciones-muelle-carga": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "quer/IMG_0492.jpeg"
  },
  "protecciones-puesto-trabajo": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "quer/IMG_0497.jpeg"
  },
  "entreplanta-estructura": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "raiz/20dfa0f2-c100-486e-b0fe-010f8d2e5065.jpg"
  },
  "entreplanta-forjado-montaje": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "raiz/402387f8-91be-4c3e-88d2-d9a41dfda110.jpg"
  },
  "entreplanta-vista-general": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "raiz/83a01268-3394-4c88-b7ee-fb346bea1412.jpg"
  },
  "entreplanta-barandilla": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "raiz/4baf8031-e093-4c89-af29-09d96b6bb054.jpg"
  },
  "protecciones-barrera-amarilla-nave": {
-  "w": 900,
-  "h": 1600,
+  "w": 1350,
+  "h": 2400,
   "src": "raiz/76c3fac7-d4b7-4c80-9b4d-34eeec19e92b.jpg"
  },
- "protecciones-mpm-distribuidor": {
-  "w": 1024,
-  "h": 1024,
-  "src": "raiz/Copilot_20260717_010337.png"
- },
  "protecciones-linea-amarilla-nave": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1800,
+  "h": 2400,
   "src": "raiz/f30ba73e-d3d7-470f-af4a-e28e2cd7a28f.jpg"
  },
  "dano-puntal-base-golpe": {
@@ -175,123 +145,63 @@
   "src": "accidentes/6261ea27-f5eb-4757-b97b-a335e50eb179.jpg"
  },
  "dano-puntal-corte": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1500,
+  "h": 2000,
   "src": "accidentes/8e81a751-3c01-4834-b327-c1a04d52e986.jpg"
  },
- "dano-colapso-estanteria": {
-  "w": 1173,
-  "h": 640,
-  "src": "accidentes/Colapso-rack1.jpg"
- },
- "dano-larguero-deformado": {
-  "w": 1200,
-  "h": 675,
-  "src": "accidentes/estanteria-2024jpg.jpg"
- },
- "dano-puntal-medicion": {
-  "w": 1200,
-  "h": 1600,
-  "src": "accidentes/f7cde1b4-b664-45a1-aa43-9c52349c264c.jpg"
- },
  "inspeccion-tecnico-pasillo": {
-  "w": 914,
-  "h": 1600,
+  "w": 1027,
+  "h": 1798,
   "src": "inspecciones/1b4c9dd2-c22a-4243-ad5a-fe20ade70dc8.jpg"
  },
  "inspeccion-medicion-base": {
-  "w": 739,
-  "h": 1600,
+  "w": 924,
+  "h": 2000,
   "src": "inspecciones/1df08779-76ee-4624-a1b4-59562b55b374.jpg"
  },
  "inspeccion-camara-frio-epi": {
-  "w": 1200,
-  "h": 1600,
+  "w": 1272,
+  "h": 1696,
   "src": "inspecciones/888cff3e-92a9-4ffc-9378-3b56f05f1bd2.jpg"
  },
  "inspeccion-tecnico-revision": {
-  "w": 914,
-  "h": 1600,
+  "w": 1027,
+  "h": 1798,
   "src": "inspecciones/95d0978c-a88e-4393-a81b-84af7e7f33b8.jpg"
- },
- "inspeccion-equipo-senalando": {
-  "w": 640,
-  "h": 500,
-  "src": "inspecciones/tecnica-mian-image.jpg"
  },
  "diego-retrato": {
   "w": 1024,
   "h": 1536,
   "src": "publicidad/Copilot_20260509_014430.png"
  },
- "tecnico-inspeccion-tablet": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260522_094557.png"
+ "protecciones-nave-pasillo-largo": {
+  "w": 1349,
+  "h": 2400,
+  "src": "fragadis/IMG_0375.JPG"
  },
- "tecnico-camara-frio": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260522_095830.png"
+ "protecciones-alineaciones-fragadis": {
+  "w": 1200,
+  "h": 1600,
+  "src": "fragadis/2ded1c75-9cbb-48cb-b5b9-44f515ce7363.jpg"
  },
- "tecnico-pasillo-azul": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260530_175054.png"
+ "protecciones-envases-vista": {
+  "w": 1800,
+  "h": 2400,
+  "src": "envases/IMG_0656.jpeg"
  },
- "tecnico-negro-brazos": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260530_175522.png"
+ "protecciones-barrera-doble": {
+  "w": 1800,
+  "h": 2400,
+  "src": "envases/IMG_0641.jpeg"
  },
- "tecnico-reparando-base": {
-  "w": 1536,
-  "h": 1024,
-  "src": "publicidad/Copilot_20260530_180734.png"
+ "entreplanta-nave-vacia": {
+  "w": 1800,
+  "h": 2400,
+  "src": "raiz/56beaf56-dd66-441e-8872-6eb3fd17b02d.jpg"
  },
- "tecnico-medidor-puntal": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260522_095605.png"
- },
- "carretilla-protector-mpm": {
-  "w": 1532,
-  "h": 948,
-  "src": "publicidad/Copilot_20260727_005239.png"
- },
- "tecnico-inspeccion-agachado": {
-  "w": 1020,
-  "h": 1439,
-  "src": "publicidad/Copilot_20260802_203827.png"
- },
- "tecnico-puntal-amarillo": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260522_095501.png"
- },
- "tecnico-larguero-naranja": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260522_093807.png"
- },
- "nave-carretilla-negra": {
-  "w": 1024,
-  "h": 1536,
-  "src": "publicidad/Copilot_20260713_141529.png"
- },
- "nave-protectores-pasillo": {
-  "w": 704,
-  "h": 1524,
-  "src": "publicidad/detectar un da\u00f1o no sireve de nada si no actuas.png"
- },
- "golpe-cara-carretilla": {
-  "w": 1019,
-  "h": 973,
-  "src": "publicidad/Copilot_20260723_221057.png"
- },
- "correcto-danos": {
-  "w": 1536,
-  "h": 1024,
-  "src": "publicidad/Copilot_20260713_022549.png"
+ "protecciones-jaula-automatica": {
+  "w": 1800,
+  "h": 2400,
+  "src": "raiz/d57bf8db-5b37-4923-add9-9f1899bcc94f.jpg"
  }
 }

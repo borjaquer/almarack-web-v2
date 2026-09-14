@@ -5,7 +5,7 @@ const faq = [
   ['¿Trabajáis en toda España o solo en Madrid y Guadalajara?', 'En toda España. La base operativa está en Guadalajara (eje A-2), lo que permite urgencias en 24/48 h en el Corredor del Henares y la Comunidad de Madrid, pero los equipos se desplazan a cualquier comunidad autónoma: hemos instalado protecciones en Alicante, montado en Castilla-La Mancha y Aragón y trabajamos con operadores logísticos con naves en varias provincias.'],
   ['¿Es obligatoria la inspección anual de estanterías industriales?', 'Sí. El RD 1215/1997 obliga a mantener los equipos de trabajo en condiciones seguras y la NTP 852 del INSST remite a la norma UNE-EN 15635: inspección por técnico competente al menos cada 12 meses, más revisiones internas del PRSES.'],
   ['¿Trabajáis con estanterías de cualquier fabricante?', 'Sí. Somos independientes y multimarca: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer y marcas descatalogadas. No vendemos racks nuevos, así que no tenemos incentivo para dictaminar sustituciones innecesarias.'],
-  ['¿Qué ocurre si un puntal está en nivel rojo?', 'La UNE-EN 15635 exige descargar de inmediato los niveles afectados, balizar el pasillo y reparar antes de volver a cargar. Con reparación in situ devolvemos la geometría al puntal en unos 45 minutos sin desmontar el bastidor.'],
+  ['¿Qué ocurre si un puntal está en nivel rojo?', 'La UNE-EN 15635 exige descargar de inmediato los niveles afectados, balizar el pasillo y reparar antes de volver a cargar. Con reparación in situ apuntalamos la carga y sustituimos el tramo dañado en unos 45 minutos, sin vaciar la estantería.'],
   ['¿Podéis trabajar dentro de cámaras de congelación?', 'Sí. Montamos, reparamos e inspeccionamos estanterías dentro de cámaras a −25 °C con EPI térmico y por fases, sin romper la cadena de frío.'],
   ['¿Cuánto cuesta una inspección técnica UNE-EN 15635?', 'Se presupuesta por huecos-palé, bastidores y niveles, con precio cerrado antes de empezar y primera visita gratuita. Con unas fotos por WhatsApp damos una valoración orientativa en menos de 2 horas.'],
 ];
@@ -13,20 +13,18 @@ const faq = [
 const cities = ['Madrid', 'Guadalajara', 'Barcelona', 'Valencia', 'Sevilla', 'Zaragoza', 'Málaga', 'Alicante', 'Murcia', 'Bilbao', 'Valladolid', 'Toledo', 'Burgos', 'Vitoria', 'Pamplona', 'Logroño', 'Santander', 'Oviedo', 'A Coruña', 'Vigo', 'Badajoz', 'Córdoba', 'Granada', 'Palma', 'Las Palmas', 'Tenerife', 'Tarragona', 'Castellón', 'Albacete', 'Ciudad Real', 'León', 'Salamanca', 'Huesca', 'Lleida', 'Girona'];
 const marq = `<div class="marq" aria-label="Ciudades con servicio"><div class="marq__t">${cities.concat(cities).map((c) => `<span>${c}</span>`).join('')}</div></div>`;
 
-const panel = (n, h2, lead, facts, list, imgSlug, alt, href) => `
-<section class="panel">
-  <div class="panel__bg">${img(imgSlug, alt, { sizes: '100vw' })}</div>
-  <div class="wrap panel__in">
-    <div>
-      <div class="panel__n" aria-hidden="true">${n}</div>
-      <h2>${h2}</h2>
-      <p class="lead">${lead}</p>
-      <div class="panel__facts">${facts.map(([b, s]) => `<div><b>${b}</b>${s}</div>`).join('')}</div>
-      <div class="panel__cta"><a class="btn btn--orange" href="${href}">Ver el servicio ${ICON.arrow}</a><a class="btn btn--ghost" href="${SITE.wa}" target="_blank" rel="noopener">${ICON.wa}WhatsApp</a></div>
-    </div>
-    <nav class="panel__list" aria-label="Detalles">${list.map(([k, t, s, h]) => `<a href="${h}"><span class="k">${k}</span><span>${t}<small>${s}</small></span>${ICON.arrow}</a>`).join('')}</nav>
+const panel = (n, h2, lead, facts, list, imgSlug, alt, href, cap, rev) => `
+<article class="feat${rev ? ' feat--rev' : ''} rv">
+  <figure class="feat__media">${img(imgSlug, alt, { sizes: '(max-width: 900px) 100vw, 50vw' })}<figcaption>${cap}</figcaption></figure>
+  <div>
+    <div class="feat__n" aria-hidden="true">${n}</div>
+    <h2>${h2}</h2>
+    <p class="lead">${lead}</p>
+    <div class="feat__facts">${facts.map(([b, s]) => `<div><b>${b}</b>${s}</div>`).join('')}</div>
+    <nav class="feat__list" aria-label="Detalles">${list.map(([k, t, s, hh]) => `<a href="${hh}"><span class="k">${k}</span><span>${t}<small>${s}</small></span>${ICON.arrow}</a>`).join('')}</nav>
+    <div class="feat__cta"><a class="btn btn--orange" href="${href}">Ver el servicio ${ICON.arrow}</a><a class="btn btn--ghost" href="${SITE.wa}" target="_blank" rel="noopener">${ICON.wa}WhatsApp</a></div>
   </div>
-</section>`;
+</article>`;
 
 const body = `
 <section class="hero">
@@ -46,7 +44,7 @@ const body = `
       </div>
       <div class="hero__meta">
         <div><b>24/48 h</b><span>Urgencias</span></div>
-        <div><b>45 min</b><span>Por puntal reparado</span></div>
+        <div><b>45 min</b><span>Por puntal</span></div>
         <div><b>−25 °C</b><span>Cámaras de frío</span></div>
       </div>
     </div>
@@ -55,25 +53,27 @@ const body = `
 </section>
 ${marq}
 
-<section class="stack" id="servicios">
+<section class="sec" id="servicios"><div class="wrap">
+<p class="tag rv">Servicios</p>
+<h2 class="h2wrap rv" style="margin:16px 0 8px">Todo lo que una estantería necesita en su vida útil.</h2>
 ${panel('01', 'Inspección técnica UNE-EN 15635', 'La auditoría anual que exige la ley, hecha por técnicos independientes. Medimos cada puntal, clasificamos cada daño por semáforo y entregamos el informe pericial que pide la Inspección de Trabajo. Sin vaciar huecos ni parar carretillas.', [['48–72 h', 'Informe pericial'], ['0', 'Palés descargados'], ['12 m', 'Periodicidad legal']], [
   ['V', 'Nivel verde', '< 3 mm · registrar y vigilar', '/inspecciones-une-en-15635/'],
   ['A', 'Nivel ámbar', '3–6 mm · reparar en 4 semanas', '/inspecciones-une-en-15635/'],
   ['R', 'Nivel rojo', '> 6 mm · descarga inmediata', '/inspecciones-une-en-15635/'],
   ['PR', 'Guía del PRSES', 'Obligaciones y libro de registro', '/guia-prses-seguridad-almacen/'],
-], 'inspeccion-tecnico-revision', 'Técnico de Almar-Rack revisando una alineación de estanterías', '/inspecciones-une-en-15635/')}
-${panel('02', 'Reparación de puntales in situ', 'Un puntal doblado obliga a descargar el módulo. Con nuestro sistema recuperamos su geometría en el propio bastidor, con la carga apuntalada, en unos 45 minutos. El pasillo vuelve a producir el mismo día y el elemento sale certificado.', [['45 min', 'Por puntal'], ['−70 %', 'Frente a sustituir'], ['24/48 h', 'Urgencias']], [
-  ['01', 'Diagnóstico por foto', 'Le decimos si es reparable en 2 h', '/reparacion-estanterias-in-situ/'],
-  ['02', 'Apuntalado de la carga', 'La mercancía se queda donde está', '/reparacion-estanterias-in-situ/'],
-  ['03', 'Conformado y verificación', 'Regla de 1 m, galga y certificado', '/reparacion-estanterias-in-situ/'],
-  ['04', 'Sustitución cuando toca', 'Recambio compatible multimarca', '/reparacion-estanterias-in-situ/'],
-], 'dano-puntal-medicion', 'Medición con regla de un puntal golpeado antes de repararlo', '/reparacion-estanterias-in-situ/')}
+], 'inspeccion-camara-frio-epi', 'Técnico de Almar-Rack con EPI durante una inspección en cámara de congelación', '/inspecciones-une-en-15635/', 'Inspección · cámara a −25 °C', false)}
+${panel('02', 'Reparación de puntales in situ', 'Un puntal golpeado obliga a descargar el módulo. Apuntalamos hidráulicamente la carga de los niveles superiores y sustituimos el tramo dañado por uno nuevo homologado, sin vaciar la estantería ni desmontar el bastidor. El pasillo vuelve a producir el mismo día.', [['45 min', 'Por puntal'], ['0', 'Palés descargados'], ['24/48 h', 'Urgencias']], [
+  ['01', 'Diagnóstico por foto', 'Le decimos qué tramo hay que cambiar en 2 h', '/reparacion-estanterias-in-situ/'],
+  ['02', 'Apuntalado hidráulico', 'La mercancía se queda donde está', '/reparacion-estanterias-in-situ/'],
+  ['03', 'Sustitución del tramo', 'Empalme homologado o puntal completo', '/reparacion-estanterias-in-situ/'],
+  ['04', 'Verificación y certificado', 'Regla de 1 m, galga y foto antes/después', '/reparacion-estanterias-in-situ/'],
+], 'dano-puntal-base-golpe-2', 'Base de puntal deformada por impacto de carretilla, pendiente de sustitución', '/reparacion-estanterias-in-situ/', 'Puntal golpeado · Madrid', true)}
 ${panel('03', 'Protecciones MPM para pasillos y muelles', 'Nueve de cada diez daños empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Flexible Protections montamos protecciones de polímero que absorben el golpe, recuperan su forma y no rompen la solera.', [['MPM', 'Distribuidor oficial'], ['−80 %', 'Daños por impacto'], ['0', 'Anclajes arrancados']], [
   ['PP', 'Protector de puntal', 'Primera línea en cada bastidor', '/protecciones-estanterias-industriales/'],
   ['BA', 'Barreras y cabeceras', 'Frenan la horquilla antes del puntal', '/protecciones-estanterias-industriales/'],
   ['BO', 'Bolardos y muelles', 'Puertas, columnas y maquinaria', '/protecciones-estanterias-industriales/'],
   ['PE', 'Pasos peatonales', 'Separar personas de carretillas', '/protecciones-estanterias-industriales/'],
-], 'protecciones-cabecera-pasillo', 'Cabecera de pasillo con protección MPM en plataforma logística', '/protecciones-estanterias-industriales/')}
+], 'protecciones-cabecera-pasillo', 'Cabecera de pasillo con protección MPM en plataforma logística', '/protecciones-estanterias-industriales/', 'Protecciones MPM · Alicante', false)}
 ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías nuevas o de segunda mano de cualquier fabricante con el mismo criterio con el que luego las inspeccionamos. Dentro de cámaras a −25 °C, en altura con entreplantas, o en una mudanza completa de almacén.', [['−25 °C', 'Cámaras de frío'], ['+100 %', 'Superficie con entreplanta'], ['Multimarca', 'Sin ataduras']], [
   ['MO', 'Montaje de estanterías', 'Paletización, picking, cantilever', '/montaje-estanterias-industriales/'],
   ['FR', 'Cámaras de frío', 'Sin romper la cadena de frío', '/montaje-estanterias-camaras-frio/'],
@@ -81,8 +81,8 @@ ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías
   ['TR', 'Traslados y desmontajes', 'Por fases, sin parar', '/traslados-desmontaje-estanterias/'],
   ['PL', 'Placas de características', 'Cálculo de carga y legalización', '/placas-de-caracteristicas-estanterias/'],
   ['MA', 'Mantenimiento anual', 'Un solo interlocutor', '/mantenimiento-estanterias-industriales/'],
-], 'montaje-plataforma-elevadora', 'Montadores en plataforma elevadora instalando estantería de gran altura', '/montaje-estanterias-industriales/')}
-</section>
+], 'entreplanta-vista-general', 'Entreplanta metálica montada por Almar-Rack en nave industrial', '/montaje-estanterias-industriales/', 'Entreplanta · Guadalajara', true)}
+</div></section>
 
 <section class="sec" id="espana"><div class="wrap">
   <div class="spain">
@@ -161,7 +161,7 @@ ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías
     <figure class="wide">${img('protecciones-cabecera-pasillo', 'Cabecera de pasillo con protección MPM en plataforma logística', { sizes: '90vw' })}<figcaption>Protecciones de cabecera MPM<span>Plataforma logística · Alicante</span></figcaption></figure>
     <figure>${img('inspeccion-camara-frio-epi', 'Técnico con EPI térmico en cámara de congelación', { sizes: '80vw' })}<figcaption>Inspección a −25 °C<span>Cámara de congelados</span></figcaption></figure>
     <figure class="wide">${img('protecciones-paso-peatonal', 'Barandillas de paso peatonal MPM en planta de envases', { sizes: '90vw' })}<figcaption>Paso peatonal protegido<span>Planta de envases · Corredor del Henares</span></figcaption></figure>
-    <figure>${img('dano-puntal-corte', 'Puntal cortado y doblado por impacto de carretilla', { sizes: '80vw' })}<figcaption>Puntal en nivel rojo<span>Diagnóstico en inspección</span></figcaption></figure>
+    <figure>${img('protecciones-nave-pasillo-largo', 'Pasillo de estanterías de gran altura con protectores en todos los puntales', { sizes: '80vw' })}<figcaption>Protectores en 28 alineaciones<span>Alicante</span></figcaption></figure>
     <figure class="wide">${img('entreplanta-vista-general', 'Entreplanta metálica con barandilla amarilla', { sizes: '90vw' })}<figcaption>Entreplanta metálica<span>Nave industrial · Guadalajara</span></figcaption></figure>
     <figure>${img('protecciones-bolardo-mpm-detalle', 'Bolardo MPM anclado junto a puerta de muelle', { sizes: '80vw' })}<figcaption>Bolardo MPM en muelle<span>Quer (Guadalajara)</span></figcaption></figure>
     <figure class="wide">${img('protecciones-nave-fragadis', 'Estanterías de gran altura con cabeceras protegidas', { sizes: '90vw' })}<figcaption>28 alineaciones protegidas<span>Alicante</span></figcaption></figure>
@@ -172,7 +172,7 @@ ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías
 <section class="sec sec--tight"><div class="wrap">
   <div class="nums rv">
     <div><b>24<i>/</i>48 h</b><span>Urgencias en el eje A-2 y Madrid</span></div>
-    <div><b>45<i> min</i></b><span>Por puntal reparado in situ, sin vaciar</span></div>
+    <div><b>45<i> min</i></b><span>Por puntal sustituido in situ, sin vaciar</span></div>
     <div><b>−25 <i>°C</i></b><span>Montaje e inspección en cámaras de congelación</span></div>
     <div><b>17</b><span>Comunidades autónomas con servicio</span></div>
   </div>

@@ -76,7 +76,7 @@ const inspeccion = compose({
     ['Informe pericial', 'Plano con georreferencia calle-módulo-nivel, listado de no conformidades, plazos y presupuesto de reparación por elemento.'],
     ['Certificado y seguimiento', 'Certificado firmado para su archivo de PRL, actualización de placas si procede y recordatorio de la próxima inspección.'],
   ]),
-  splitSec('dano-puntal-medicion', 'Medición de la deformación de un puntal con regla y galga durante una inspección', 'Medición con regla de 1 m sobre un puntal golpeado', 'Inspección pericial frente a revisión de fabricante', 'La revisión que ofrece un fabricante busca vender bastidores nuevos. La nuestra busca que su instalación cumpla y siga produciendo.', [
+  splitSec('inspeccion-medicion-base', 'Técnico midiendo la base de un puntal durante una inspección', 'Medición con regla y galga en la base del puntal', 'Inspección pericial frente a revisión de fabricante', 'La revisión que ofrece un fabricante busca vender bastidores nuevos. La nuestra busca que su instalación cumpla y siga produciendo.', [
     'Medición instrumental, no solo visual: cada daño con su cifra en milímetros',
     'Sin interés en la sustitución: priorizamos la reparación in situ cuando la norma lo permite',
     'Multimarca: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow y descatalogadas',
@@ -90,45 +90,45 @@ const reparacion = compose({
   slug: '/reparacion-estanterias-in-situ/',
   short: 'Reparación in situ',
   serviceName: 'Reparación de puntales de estanterías in situ',
-  title: 'Reparación de estanterías in situ sin vaciar palés · Puntales en 45 min | Almar-Rack',
-  description: 'Reparación de puntales y largueros de estanterías industriales in situ, sin descargar la mercancía ni desmontar el bastidor. Unos 45 minutos por puntal, hasta un 70 % de ahorro frente a sustituir y certificado conforme a UNE-EN 15635. Urgencias 24/48 h en Guadalajara y Madrid.',
+  title: 'Reparación de estanterías in situ sin vaciar palés · Sustitución de puntales | Almar-Rack',
+  description: 'Reparación de estanterías industriales in situ: apuntalamiento hidráulico de la carga y sustitución del tramo de puntal, larguero o diagonal dañado sin descargar la mercancía ni desmontar el bastidor. Unos 45 minutos por puntal, recambio homologado multimarca y certificado UNE-EN 15635. Urgencias 24/48 h en toda España.',
   h1: 'Reparación de estanterías in situ, sin vaciar palés',
-  lead: 'Un puntal doblado en nivel rojo obliga a descargar el módulo. Con nuestro sistema de reparación in situ recuperamos la geometría del puntal en el propio bastidor, con la carga apuntalada, en unos 45 minutos. El pasillo vuelve a producir el mismo día y el elemento sale certificado.',
-  img: 'dano-puntal-base-golpe-2', imgAlt: 'Base de puntal de estantería deformada por impacto de carretilla antes de la reparación', imgCap: 'Puntal golpeado en la base: reparable in situ',
+  lead: 'Un puntal golpeado en nivel rojo obliga a descargar el módulo. Con nuestro sistema de reparación in situ apuntalamos hidráulicamente la carga de los niveles superiores y sustituimos el tramo dañado por uno nuevo homologado, sin vaciar la estantería. El pasillo vuelve a producir el mismo día y el elemento sale certificado.',
+  img: 'dano-puntal-base-golpe-2', imgAlt: 'Base de puntal de estantería deformada por impacto de carretilla antes de la reparación', imgCap: 'Puntal golpeado en la base: se sustituye el tramo in situ',
   ctaH: '¿Un puntal bloqueando posiciones de palé?', ctaP: 'Envíe una foto del daño por WhatsApp. Le decimos si es reparable, cuánto cuesta y cuándo podemos entrar.', urgent: true,
   faq: [
-    ['¿Qué daños se pueden reparar in situ y cuáles no?', 'Se reparan deformaciones y abolladuras en puntales y bases por impacto, dentro de los límites que permite recuperar la sección sin fisuras. No se repara acero con grietas, soldaduras rotas, corrosión estructural ni diagonales cizalladas: en esos casos se sustituye el tramo o el bastidor completo con recambio compatible.'],
-    ['¿Hay que descargar la estantería?', 'No. El sistema apuntala la carga de los niveles superiores mientras se trabaja sobre el tramo dañado. Solo en daños de nivel rojo la norma obliga a descargar el módulo hasta que esté reparado, y esa reparación la hacemos el mismo día o en 24/48 h.'],
-    ['¿Cuánto cuesta reparar frente a sustituir?', 'La reparación evita el recambio, el transporte, la grúa, el vaciado de huecos y las horas de operario para desmontar niveles. En instalaciones habituales el ahorro está entre el 50 y el 70 % del coste de sustitución.'],
-    ['¿La reparación tiene validez normativa?', 'Sí. Cada elemento reparado se mide después con regla y galga y se documenta con foto antes/después. Si queda en tolerancia verde, se certifica y se refleja en el informe de inspección y en el libro del PRSES.'],
+    ['¿En qué consiste exactamente la reparación in situ?', 'No enderezamos el acero: un puntal deformado ha perdido capacidad y la norma no admite recuperarlo por conformado. Lo que hacemos es apuntalar hidráulicamente la carga, cortar el tramo dañado del puntal y montar un tramo nuevo homologado con empalme certificado (o el puntal completo si el daño es extenso), sin descargar los niveles. Largueros y diagonales dañados se sustituyen directamente.'],
+    ['¿Hay que descargar la estantería?', 'No. El apuntalamiento hidráulico soporta la carga de los niveles superiores mientras se sustituye el tramo dañado. Solo en daños de nivel rojo la norma obliga a descargar el módulo hasta que esté reparado, y esa sustitución la hacemos el mismo día o en 24/48 h.'],
+    ['¿Cuánto cuesta frente a cambiar el bastidor completo?', 'Sustituir solo el tramo dañado evita comprar el bastidor entero, el transporte, la grúa, el vaciado de huecos y las horas para desmontar niveles. En instalaciones habituales el ahorro respecto a cambiar el bastidor completo está entre el 50 y el 70 %.'],
+    ['¿La reparación tiene validez normativa?', 'Sí. El tramo y el empalme son piezas homologadas compatibles con el sistema; tras el montaje se verifica la verticalidad con regla y galga y se documenta con foto antes/después. Se certifica y se refleja en el informe de inspección y en el libro del PRSES.'],
     ['¿Reparáis estanterías de cualquier marca?', 'Sí: perfiles de Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich y marcas descatalogadas. Cuando hace falta sustituir, localizamos el recambio compatible o certificamos una solución equivalente.'],
   ],
 }, [
   plateRows('Ficha de la reparación', [
-    ['Método', 'Apuntalamiento de la carga y conformado del perfil en el propio bastidor, sin desmontar largueros ni vaciar niveles'],
+    ['Método', 'Apuntalamiento hidráulico de la carga y sustitución del tramo dañado (empalme homologado) o del puntal completo, sin desmontar largueros ni vaciar niveles'],
     ['Tiempo por puntal', 'Unos 45 minutos (media en paletización convencional)'],
-    ['Ahorro frente a sustituir', 'Hasta un 70 % (recambio, transporte, grúa, descarga y horas de operario)'],
-    ['Elementos', 'Puntales, bases de puntal, placas base, largueros con flecha recuperable, diagonales por sustitución'],
+    ['Ahorro frente al bastidor completo', 'Hasta un 70 % (recambio, transporte, grúa, descarga y horas de operario)'],
+    ['Elementos', 'Tramos de puntal, puntales completos, placas base, largueros, diagonales, pasadores de seguridad y anclajes'],
     ['Verificación', 'Medición posterior con regla de 1 m y galga; foto antes/después; certificado por elemento'],
     ['Marcas', 'Multimarca, incluidas descatalogadas'],
     ['Urgencias', '24/48 h en Corredor del Henares y Comunidad de Madrid; planificado en el resto de España'],
   ]),
-  steps4('Así reparamos un puntal sin parar el pasillo', [
-    ['Diagnóstico', 'Foto por WhatsApp y, si procede, visita. Confirmamos que el daño es reparable y no hay fisuras ni soldaduras rotas.'],
+  steps4('Así sustituimos un puntal sin parar el pasillo', [
+    ['Diagnóstico', 'Foto por WhatsApp y, si procede, visita. Definimos qué tramo hay que sustituir y qué recambio compatible corresponde a su sistema.'],
     ['Apuntalado', 'Transferimos la carga de los niveles superiores a un apoyo auxiliar. La mercancía se queda donde está.'],
-    ['Conformado', 'Devolvemos la sección del perfil a su geometría original de forma controlada, sin calentar el acero.'],
-    ['Verificación', 'Medimos con regla y galga, comprobamos anclaje y pasadores, fotografiamos y certificamos el elemento.'],
+    ['Sustitución', 'Cortamos el tramo dañado y montamos el tramo nuevo con empalme homologado, o el puntal completo si el daño es extenso.'],
+    ['Verificación', 'Comprobamos verticalidad con regla y galga, anclaje y pasadores, fotografiamos y certificamos el elemento.'],
   ]),
-  splitSec('dano-larguero-deformado', 'Larguero de estantería con deformación permanente por sobrecarga', 'Larguero con flecha permanente: se sustituye y se recalcula la placa de carga', 'Cuando hay que sustituir, también lo hacemos', 'No todo se conforma. Si el acero está fisurado, cizallado o corroído, sustituimos el tramo con recambio compatible y recertificamos la alineación.', [
+  splitSec('dano-puntal-corte', 'Puntal de estantería cortado por impacto de carretilla', 'Puntal con corte: se sustituye el tramo completo', 'Recambio homologado, sea cual sea la marca', 'Localizamos el tramo, el larguero o la diagonal compatible con su sistema y lo dejamos certificado.', [
     'Sustitución de tramos de puntal con empalme homologado, sin cambiar el bastidor completo',
     'Recambio de largueros, diagonales, pasadores de seguridad y placas base',
     'Reanclaje con taco químico o mecánico según solera',
     'Actualización de la placa de características si cambia la configuración',
   ]),
   gallery([
-    ['dano-puntal-base-golpe', 'Puntal con base deformada por impacto de carretilla', 'Base de puntal golpeada', 'Antes de la reparación'],
-    ['dano-puntal-corte', 'Puntal de estantería cortado y doblado en la base', 'Daño de nivel rojo', 'Sustitución de tramo'],
-    ['dano-colapso-estanteria', 'Estantería colapsada con mercancía por el suelo tras un accidente', 'Lo que evitamos', 'Colapso por puntal no reparado'],
+    ['dano-puntal-base-golpe', 'Puntal con base deformada por impacto de carretilla', 'Base de puntal golpeada', 'Antes de la sustitución'],
+    ['inspeccion-medicion-base', 'Técnico verificando la base y el anclaje de un puntal', 'Verificación', 'Regla, galga y anclaje'],
+    ['protecciones-protector-puntal-mpm', 'Protector de puntal MPM instalado tras la reparación', 'Después', 'Protección para que no se repita'],
   ]),
 ]);
 
@@ -186,7 +186,7 @@ const placas = compose({
   description: 'Cálculo de la carga admisible por nivel y módulo y emisión de placas de características para estanterías de paletización según UNE-EN 15635 y RD 1215/1997. Legalizamos estanterías modificadas, descatalogadas o sin documentación. Guadalajara, Madrid y toda España.',
   h1: 'Placas de características y cálculo de carga',
   lead: 'Toda estantería debe llevar, visible, una placa con la carga máxima por nivel y por módulo, la separación entre largueros y el fabricante. Si su instalación no la tiene, se ha modificado o el fabricante desapareció, calculamos la capacidad real y emitimos la placa que le pide la Inspección de Trabajo.',
-  img: 'montaje-pasillo-paletizacion', imgAlt: 'Alineaciones de estantería de paletización nuevas, pendientes de placas de características', imgCap: 'Instalación nueva: placa por alineación antes de cargar',
+  img: 'protecciones-alineaciones-fragadis', imgAlt: 'Alineaciones de estantería de paletización nuevas, pendientes de placas de características', imgCap: 'Instalación nueva: placa por alineación antes de cargar',
   ctaH: '¿Estanterías sin placa, modificadas o de fabricante desaparecido?', ctaP: 'Con unas fotos del perfil, la altura entre niveles y el tipo de carga le decimos qué necesita para legalizarlas.',
   faq: [
     ['¿Qué debe indicar una placa de características?', 'Según la UNE-EN 15635: nombre del instalador o fabricante, fecha de instalación, carga máxima por nivel (por par de largueros), carga máxima por módulo o bastidor, distancia entre el suelo y el primer nivel y entre niveles, y la advertencia de no modificar la configuración sin recalcular.'],
@@ -225,7 +225,7 @@ const montaje = compose({
   description: 'Montaje certificado de estanterías industriales: paletización convencional y compacta, picking, carga ligera y cantilever. Replanteo, nivelado láser, anclaje químico, placas de carga y certificado de montaje. Multimarca. Guadalajara, Madrid y toda España.',
   h1: 'Montaje de estanterías industriales',
   lead: 'Montamos estanterías nuevas o de segunda mano de cualquier fabricante con el mismo criterio con el que luego las inspeccionamos: replanteo sobre plano, nivelado láser, anclaje según solera y entrega con placas de carga y certificado de montaje conforme a la UNE-EN 15635.',
-  img: 'montaje-plataforma-elevadora', imgAlt: 'Montadores de Almar-Rack en plataforma elevadora instalando largueros en estantería de gran altura', imgCap: 'Montaje en altura con plataforma elevadora',
+  img: 'protecciones-nave-altura', imgAlt: 'Montadores de Almar-Rack en plataforma elevadora instalando largueros en estantería de gran altura', imgCap: 'Montaje en altura con plataforma elevadora',
   ctaH: '¿Nave nueva, ampliación o estantería de segunda mano por montar?', ctaP: 'Envíenos el plano o las medidas de la nave y el tipo de carga. Le proponemos layout, plazo y presupuesto cerrado.',
   faq: [
     ['¿Qué sistemas montáis?', 'Paletización convencional, compacta drive-in, dinámica, push-back, picking manual, estantería de carga ligera y media, cantilever para cargas largas, y entreplantas. De cualquier marca: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow y sistemas descatalogados.'],
@@ -242,7 +242,7 @@ const montaje = compose({
     ['Entrega', 'Placas de características por alineación, plano as-built y certificado de montaje'],
     ['Equipo', 'Montadores propios con formación en trabajos en altura y plataformas elevadoras'],
   ]),
-  splitSec('montaje-bastidores-acopio', 'Bastidores y largueros de estantería acopiados en nave antes del montaje', 'Material acopiado antes del montaje', 'Sistemas que montamos', 'Elegimos el sistema por la rotación, el tipo de palé y las carretillas que usa, no por catálogo.', [
+  splitSec('entreplanta-forjado-montaje', 'Bastidores y largueros de estantería acopiados en nave antes del montaje', 'Material acopiado antes del montaje', 'Sistemas que montamos', 'Elegimos el sistema por la rotación, el tipo de palé y las carretillas que usa, no por catálogo.', [
     'Paletización convencional: acceso directo a cada palé, la más versátil',
     'Compacta drive-in y push-back: máxima densidad para pocas referencias',
     'Dinámica por gravedad: FIFO para alimentación y frío',
@@ -250,8 +250,8 @@ const montaje = compose({
     'Cantilever: perfiles, tubos y cargas largas',
   ], true),
   gallery([
-    ['montaje-nave-paletizacion-larga', 'Nave logística con alineaciones de estantería de paletización y protecciones amarillas', 'Paletización convencional', 'Nave logística'],
-    ['montaje-pasillo-paletizacion', 'Pasillo de estanterías nuevas de paletización', 'Alineación nueva', 'Entrega con placas de carga'],
+    ['protecciones-nave-fragadis', 'Nave logística con alineaciones de estantería de paletización y protecciones amarillas', 'Paletización convencional', 'Nave logística'],
+    ['protecciones-alineaciones-fragadis', 'Pasillo de estanterías nuevas de paletización', 'Alineación nueva', 'Entrega con placas de carga'],
     ['entreplanta-forjado-montaje', 'Montaje de forjado de entreplanta metálica en nave industrial', 'Entreplanta', 'Forjado en montaje'],
   ]),
 ]);
@@ -280,7 +280,7 @@ const frio = compose({
     ['Cadena de frío', 'Intervención por fases con la cámara operativa; sin romper la cadena ni parar la expedición'],
     ['Materiales', 'Estantería galvanizada, protecciones MPM aptas para baja temperatura, anclajes adecuados a soleras aisladas'],
   ]),
-  splitSec('montaje-camara-congelados', 'Estantería de paletización azul y naranja dentro de cámara de congelados con puerta de lamas', 'Paletización en cámara de congelados', 'Lo que solo se ve dentro de una cámara', 'Las cámaras concentran los tres factores que dañan una estantería: pasillos estrechos, ritmo alto y visibilidad reducida.', [
+  splitSec('inspeccion-camara-frio-epi', 'Estantería de paletización azul y naranja dentro de cámara de congelados con puerta de lamas', 'Paletización en cámara de congelados', 'Lo que solo se ve dentro de una cámara', 'Las cámaras concentran los tres factores que dañan una estantería: pasillos estrechos, ritmo alto y visibilidad reducida.', [
     'Protección de cabeceras y puntales en las entradas de cámara',
     'Revisión de anclajes en soleras aisladas y de bases con hielo',
     'Inspección anual con medición completa, no visual',
@@ -329,7 +329,7 @@ const traslados = compose({
   description: 'Desmontaje, clasificación, transporte y montaje de estanterías industriales en la nueva nave, con revisión del material y re-certificación de la instalación. Reconfiguración de layout y cambio de niveles. Guadalajara, Madrid y toda España.',
   h1: 'Traslados y desmontajes de estanterías',
   lead: 'Mudar un almacén es el momento en que más estanterías se dañan y más documentación se pierde. Desmontamos con criterio, clasificamos lo que sirve, transportamos y montamos en la nueva nave con placas y certificado nuevos, coordinando las fases con su operativa para no parar más de lo imprescindible.',
-  img: 'montaje-bastidores-acopio', imgAlt: 'Bastidores y largueros desmontados y clasificados en nave, listos para traslado', imgCap: 'Material clasificado tras desmontaje',
+  img: 'entreplanta-forjado-montaje', imgAlt: 'Bastidores y largueros desmontados y clasificados en nave, listos para traslado', imgCap: 'Material clasificado tras desmontaje',
   ctaH: '¿Cambia de nave o reorganiza el almacén?', ctaP: 'Cuéntenos huecos, altura y fechas. Planificamos el traslado por fases con presupuesto cerrado.',
   faq: [
     ['¿Se puede reutilizar toda la estantería?', 'Casi siempre la mayor parte. Revisamos puntal por puntal y descartamos los que estén fuera de tolerancia o con corrosión. Le entregamos un inventario del material apto y del que conviene sustituir.'],
@@ -376,7 +376,7 @@ const mantenimiento = compose({
     ['Documentación', 'Libro de registro del PRSES actualizado, placas de carga vigentes, histórico por calle y módulo'],
     ['Formación', 'Sesión anual para carretilleros y PRSES: qué mirar, qué comunicar, qué no hacer'],
   ]),
-  splitSec('inspeccion-equipo-senalando', 'Dos técnicos con casco señalando un nivel de estantería durante una revisión', 'Revisión conjunta con el responsable del almacén', 'Lo que se pierde con el uso y nadie repone', 'La mayoría de las no conformidades no son golpes: son elementos pequeños que desaparecen.', [
+  splitSec('inspeccion-tecnico-pasillo', 'Dos técnicos con casco señalando un nivel de estantería durante una revisión', 'Revisión conjunta con el responsable del almacén', 'Lo que se pierde con el uso y nadie repone', 'La mayoría de las no conformidades no son golpes: son elementos pequeños que desaparecen.', [
     'Pasadores de seguridad de larguero: sin ellos, una horquilla levanta el nivel',
     'Anclajes flojos o arrancados tras un impacto',
     'Protecciones deformadas que ya no protegen',

@@ -74,7 +74,7 @@ const normativa = {
   description: 'Guía clara de la normativa aplicable a estanterías metálicas en España: RD 1215/1997, Ley 31/1995 de PRL, UNE-EN 15635 (uso y mantenimiento), UNE-EN 15512 (cálculo), UNE-EN 15620 (tolerancias), UNE-EN 15629 (especificación) y NTP 852 del INSST. Obligaciones, plazos y sanciones.',
   h1: 'Normativa de estanterías industriales en España',
   lead: 'Qué ley obliga, qué norma técnica concreta cómo cumplirla y qué documento aplica la Inspección de Trabajo. Todo lo que un director de operaciones o responsable de PRL necesita saber, sin jerga.',
-  img: 'montaje-nave-paletizacion-larga', imgAlt: 'Nave logística con alineaciones de estantería de paletización y cabeceras protegidas', imgCap: 'Instalación conforme: placas, protecciones y pasadores',
+  img: 'protecciones-nave-fragadis', imgAlt: 'Nave logística con alineaciones de estantería de paletización y cabeceras protegidas', imgCap: 'Instalación conforme: placas, protecciones y pasadores',
   crumbs: [['Inicio', '/'], ['Recursos', '/preguntas-frecuentes/'], ['Normativa', '/normativa-estanterias-industriales/']],
   faq: normFaq,
   schema: [{ '@type': 'Article', headline: 'Normativa de estanterías industriales en España', author: { '@id': SITE.url + '/#organization' }, publisher: { '@id': SITE.url + '/#organization' }, inLanguage: 'es-ES' }],
@@ -139,7 +139,7 @@ const faqPage = {
   description: 'Respuestas claras sobre inspección UNE-EN 15635, reparación de puntales, protecciones MPM, placas de carga, PRSES, plazos, precios, marcas y zona de trabajo de Almar-Rack, empresa de mantenimiento de estanterías industriales en Guadalajara y Madrid.',
   h1: 'Preguntas frecuentes',
   lead: 'Lo que directores de operaciones, jefes de almacén y responsables de PRL nos preguntan antes de contratar. Si su duda no está aquí, un técnico se la responde por WhatsApp.',
-  img: 'inspeccion-equipo-senalando', imgAlt: 'Técnicos de Almar-Rack resolviendo dudas junto a una estantería', imgCap: 'Dudas resueltas a pie de estantería',
+  img: 'inspeccion-tecnico-pasillo', imgAlt: 'Técnicos de Almar-Rack resolviendo dudas junto a una estantería', imgCap: 'Dudas resueltas a pie de estantería',
   crumbs: [['Inicio', '/'], ['Recursos', '/preguntas-frecuentes/'], ['Preguntas frecuentes', '/preguntas-frecuentes/']],
   faq: allFaq,
 };
@@ -196,7 +196,7 @@ proyectos.body = pageHero(proyectos)
   ])
   + proj('Inspección y diagnóstico de daños', 'Madrid y Guadalajara', 'Inspección UNE-EN 15635, clasificación de daños y reparación in situ', [
     ['inspeccion-camara-frio-epi', 'Técnico con EPI térmico en cámara de congelación', 'Cámara a −25 °C'],
-    ['dano-puntal-medicion', 'Medición de puntal con regla y galga', 'Medición'],
+    ['inspeccion-medicion-base', 'Medición de puntal con regla y galga', 'Medición'],
     ['dano-puntal-base-golpe', 'Base de puntal deformada por impacto', 'Nivel rojo'],
     ['dano-puntal-corte', 'Puntal cortado por impacto de carretilla', 'Sustitución de tramo'],
     ['inspeccion-medicion-base', 'Revisión de base y anclaje de puntal', 'Anclajes'],
