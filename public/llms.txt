@@ -25,6 +25,7 @@ Datos clave:
 ## Recursos y zonas
 - [Guía del PRSES](https://almarack.com/guia-prses-seguridad-almacen/): Obligaciones, revisiones y libro de registro
 - [Normativa de estanterías](https://almarack.com/normativa-estanterias-industriales/): RD 1215/1997, UNE-EN 15635, NTP 852
+- [Checklist de revisión](https://almarack.com/checklist-revision-estanterias/): Formato de revisión periódica del PRSES
 - [Preguntas frecuentes](https://almarack.com/preguntas-frecuentes/): Plazos, precios, responsabilidades
 - [Proyectos realizados](https://almarack.com/proyectos/): Fotos reales de nuestras intervenciones
 - [Toda España](https://almarack.com/cobertura-nacional/): 17 comunidades autónomas · equipos móviles

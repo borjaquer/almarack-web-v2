@@ -25,6 +25,7 @@ Datos clave:
 ## Recursos y zonas
 - [Guía del PRSES](https://almarack.com/guia-prses-seguridad-almacen/): Obligaciones, revisiones y libro de registro
 - [Normativa de estanterías](https://almarack.com/normativa-estanterias-industriales/): RD 1215/1997, UNE-EN 15635, NTP 852
+- [Checklist de revisión](https://almarack.com/checklist-revision-estanterias/): Formato de revisión periódica del PRSES
 - [Preguntas frecuentes](https://almarack.com/preguntas-frecuentes/): Plazos, precios, responsabilidades
 - [Proyectos realizados](https://almarack.com/proyectos/): Fotos reales de nuestras intervenciones
 - [Toda España](https://almarack.com/cobertura-nacional/): 17 comunidades autónomas · equipos móviles
@@ -76,7 +77,7 @@ La auditoría anual que exige la ley, hecha por técnicos independientes. Medimo
 
 12 m Periodicidad legal
 
-[V Nivel verde](https://almarack.com/inspecciones-une-en-15635/)[A Nivel ámbar3–6 mm · reparar en 4 semanas](https://almarack.com/inspecciones-une-en-15635/)[R Nivel rojo> 6 mm · descarga inmediata](https://almarack.com/inspecciones-une-en-15635/)[PR Guía del PRSESObligaciones y libro de registro](https://almarack.com/guia-prses-seguridad-almacen/)
+[V Nivel verde](https://almarack.com/inspecciones-une-en-15635/)[A Nivel ámbar3–6 mm · reparar en 4 semanas](https://almarack.com/inspecciones-une-en-15635/)[R Nivel rojo> 6 mm · descarga inmediata](https://almarack.com/inspecciones-une-en-15635/)[PR Checklist de revisiónEl formato del PRSES, gratis](https://almarack.com/checklist-revision-estanterias/)
 
 [Ver el servicio](https://almarack.com/inspecciones-une-en-15635/)WhatsApp
 
@@ -84,7 +85,7 @@ La auditoría anual que exige la ley, hecha por técnicos independientes. Medimo
 
 ## Reparación de puntales in situ
 
-Un puntal golpeado obliga a descargar el módulo. Apuntalamos hidráulicamente la carga de los niveles superiores y sustituimos el tramo dañado por uno nuevo homologado, sin vaciar la estantería ni desmontar el bastidor. El pasillo vuelve a producir el mismo día.
+Un puntal golpeado obliga a descargar el módulo. Apuntalamos la carga de los niveles superiores, desanclamos el puntal afectado, cortamos la parte dañada y empalmamos un tramo nuevo homologado conforme a la normativa, sin vaciar la estantería ni desmontar el bastidor. El pasillo vuelve a producir el mismo día.
 
 45 min Por puntal
 
@@ -92,7 +93,7 @@ Un puntal golpeado obliga a descargar el módulo. Apuntalamos hidráulicamente l
 
 24/48 h Urgencias
 
-[01 Diagnóstico por fotoLe decimos qué tramo hay que cambiar en 2 h](https://almarack.com/reparacion-estanterias-in-situ/)[02 Apuntalado hidráulicoLa mercancía se queda donde está](https://almarack.com/reparacion-estanterias-in-situ/)[03 Sustitución del tramoEmpalme homologado o puntal completo](https://almarack.com/reparacion-estanterias-in-situ/)[04 Verificación y certificadoRegla de 1 m, galga y foto antes/después](https://almarack.com/reparacion-estanterias-in-situ/)
+[01 Diagnóstico por fotoLe decimos qué tramo hay que cambiar en 2 h](https://almarack.com/reparacion-estanterias-in-situ/)[02 Apuntalado y desanclajeLa mercancía se queda donde está](https://almarack.com/reparacion-estanterias-in-situ/)[03 Corte y empalme del tramoTramo nuevo homologado, según normativa](https://almarack.com/reparacion-estanterias-in-situ/)[04 Verificación y certificadoRegla de 1 m, galga y foto antes/después](https://almarack.com/reparacion-estanterias-in-situ/)
 
 [Ver el servicio](https://almarack.com/reparacion-estanterias-in-situ/)WhatsApp
 
@@ -295,6 +296,10 @@ La UNE-EN 15635 exige descargar de inmediato los niveles afectados, balizar el p
 
 Sí. Montamos, reparamos e inspeccionamos estanterías dentro de cámaras a −25 °C con EPI térmico y por fases, sin romper la cadena de frío.
 
+**¿Quién puede inspeccionar las estanterías y cada cuánto? **
+
+Una persona técnicamente competente e independiente, al menos cada 12 meses (UNE-EN 15635, NTP 852). Entre inspecciones, el PRSES hace revisiones periódicas con un checklist; le dejamos el nuestro gratis en la web.
+
 **¿Cuánto cuesta una inspección técnica UNE-EN 15635? **
 
 Se presupuesta por huecos-palé, bastidores y niveles, con precio cerrado antes de empezar y primera visita gratuita. Con unas fotos por WhatsApp damos una valoración orientativa en menos de 2 horas.
@@ -330,7 +335,7 @@ info@almarack.com
 - [Servicios](https://almarack.com/#servicios)
 - Inspección UNE-EN 15635
 
-# Inspección técnica de estanterías UNE-EN 15635
+# Inspección técnica de estanterías metálicas (ITE) UNE-EN 15635
 
 La auditoría anual que exige el RD 1215/1997, hecha por técnicos independientes: medimos cada puntal, clasificamos cada daño por semáforo y entregamos el informe pericial que la Inspección de Trabajo, su mutua y su aseguradora van a pedir. Sin vaciar huecos ni parar carretillas.
 
@@ -354,6 +359,10 @@ Pedir valoración por WhatsApp
 - Plazo de entrega: 48–72 h desde la visita
 
 - Interrupción: Ninguna: pasillos activos, sin descargar palés
+
+- Certificado: Certificado de inspección firmado por técnico competente + informe pericial: válido ante ITSS, mutuas, aseguradoras y auditorías PRL
+
+- Marcas: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer y descatalogadas
 
 ## El semáforo de daños: qué mide y qué obliga
 
@@ -421,6 +430,22 @@ Plano de la nave con cada daño georreferenciado por calle, módulo y nivel; fot
 
 La Ley de Infracciones y Sanciones en el Orden Social (LISOS) tipifica como grave no garantizar el mantenimiento de los equipos de trabajo, con multas de 2.451 a 49.180 €, y como muy grave hasta 983.736 € cuando hay riesgo grave e inminente. A ello se suman el recargo de prestaciones (30–50 %) en caso de accidente y la posible responsabilidad penal de la dirección (art. 316 CP).
 
+**¿Quién puede inspeccionar las estanterías? **
+
+La UNE-EN 15635 exige una persona técnicamente competente e independiente de la operativa diaria, con formación en estanterías metálicas. Puede ser el fabricante, un instalador o una empresa especializada como Almar-Rack. La ventaja de una empresa independiente es que no tiene interés en venderle bastidores nuevos.
+
+**¿Cada cuánto hay que inspeccionar las estanterías? **
+
+Como mínimo una inspección experta cada 12 meses, además de las revisiones periódicas del PRSES (semanales o mensuales según la rotación) y la vigilancia diaria de los carretilleros. También tras un golpe fuerte, un accidente o un cambio de configuración.
+
+**¿Cuánto cuesta la inspección de estanterías? **
+
+Depende del número de huecos-palé, bastidores y niveles, y de si hay cámaras de frío o alturas especiales. Se presupuesta con precio cerrado por hueco-palé antes de empezar, sin recargo de desplazamiento en Madrid y Guadalajara; con unas fotos y el número de huecos le damos una cifra orientativa en menos de 2 horas.
+
+**¿Qué certificado entregamos? **
+
+Un certificado de inspección firmado por técnico competente, con fecha, alcance, norma aplicada (UNE-EN 15635) y resultado, más el informe pericial completo. Es el documento que solicitan la Inspección de Trabajo, las mutuas, las aseguradoras y las auditorías de PRL, y el que acredita al PRSES que la instalación se ha inspeccionado.
+
 **¿Qué pasa con los daños que encontráis? **
 
 Los verdes se registran para seguimiento; los ámbar deben repararse en 4 semanas; los rojos exigen descargar el módulo de inmediato. Nuestro equipo de reparación in situ puede resolver la mayoría de daños en la misma visita o en las 48 h siguientes, y actualizamos el informe con el elemento reparado.
@@ -463,7 +488,7 @@ info@almarack.com
 - [Servicios](https://almarack.com/#servicios)
 - Reparación in situ
 
-# Reparación de estanterías in situ, sin vaciar palés
+# Reparación de estanterías metálicas y puntales in situ, sin vaciar palés
 
 Un puntal golpeado en nivel rojo obliga a descargar el módulo. Con nuestro sistema de reparación in situ apuntalamos hidráulicamente la carga de los niveles superiores y sustituimos el tramo dañado por uno nuevo homologado, sin vaciar la estantería. El pasillo vuelve a producir el mismo día y el elemento sale certificado.
 
@@ -521,7 +546,7 @@ Localizamos el tramo, el larguero o la diagonal compatible con su sistema y lo d
 
 **¿En qué consiste exactamente la reparación in situ? **
 
-No enderezamos el acero: un puntal deformado ha perdido capacidad y la norma no admite recuperarlo por conformado. Lo que hacemos es apuntalar hidráulicamente la carga, cortar el tramo dañado del puntal y montar un tramo nuevo homologado con empalme certificado (o el puntal completo si el daño es extenso), sin descargar los niveles. Largueros y diagonales dañados se sustituyen directamente.
+Apuntalamos la carga de los niveles superiores, desanclamos el puntal afectado, cortamos la parte dañada y empalmamos un tramo nuevo homologado respetando la normativa del fabricante y la UNE-EN 15635 (o sustituimos el puntal completo si el daño es extenso), sin descargar los niveles. Largueros y diagonales dañados se sustituyen directamente.
 
 **¿Hay que descargar la estantería? **
 
@@ -534,6 +559,10 @@ Sustituir solo el tramo dañado evita comprar el bastidor entero, el transporte,
 **¿La reparación tiene validez normativa? **
 
 Sí. El tramo y el empalme son piezas homologadas compatibles con el sistema; tras el montaje se verifica la verticalidad con regla y galga y se documenta con foto antes/después. Se certifica y se refleja en el informe de inspección y en el libro del PRSES.
+
+**¿Cuánto cuesta reparar un puntal? **
+
+Se presupuesta por puntal según la altura del tramo a sustituir, el sistema (Mecalux, AR Racking, Esmena…) y si hay que cambiar también placa base, diagonales o pasadores. El precio es cerrado antes de empezar. Con una foto del daño por WhatsApp le decimos en menos de 2 horas qué hay que sustituir y cuánto cuesta.
 
 **¿Reparáis estanterías de cualquier marca? **
 
@@ -628,6 +657,10 @@ Protectores de puntal, barreras de pasillo simples y dobles, protectores de cabe
 **¿Cómo se anclan y cuánto tardáis? **
 
 Con anclaje químico o mecánico según el estado de la solera, con el pasillo en uso. Una cabecera se protege en menos de una hora; una nave de tamaño medio, en una o dos jornadas.
+
+**¿Son compatibles con estanterías Mecalux, AR Racking o Esmena? **
+
+Sí. Los protectores de puntal MPM se fabrican para las secciones habituales de puntal de Mecalux, AR Racking, Esmena, Permar, Polypal, Stow y otros; medimos el perfil en la visita y elegimos la referencia adecuada. Barreras, cabeceras y bolardos son independientes del fabricante de la estantería.
 
 **¿Podéis proteger una nave que no tiene estanterías? **
 
@@ -762,7 +795,7 @@ info@almarack.com
 - [Servicios](https://almarack.com/#servicios)
 - Montaje de estanterías
 
-# Montaje de estanterías industriales
+# Empresa de montaje de estanterías industriales
 
 Montamos estanterías nuevas o de segunda mano de cualquier fabricante con el mismo criterio con el que luego las inspeccionamos: replanteo sobre plano, nivelado láser, anclaje según solera y entrega con placas de carga y certificado de montaje conforme a la UNE-EN 15635.
 
@@ -806,6 +839,14 @@ Sí, previa revisión del material: descartamos puntales y largueros fuera de to
 **¿Qué incluye el certificado de montaje? **
 
 Plano as-built, verificación de verticalidad y nivelación según UNE-EN 15620, comprobación de anclajes y pasadores, placas de características instaladas y firma del responsable de montaje. Es el punto de partida del libro de registro del PRSES.
+
+**¿Cuánto cuesta montar estanterías industriales? **
+
+El montaje se presupuesta por módulo o por hueco-palé según altura, número de niveles, tipo de sistema y estado de la solera; el material, si lo suministramos nosotros, va aparte. Precio cerrado antes de empezar con plano o medidas de la nave. Montamos estantería nueva y de segunda mano de cualquier marca.
+
+**¿Entregáis certificado de montaje? **
+
+Sí. Al terminar entregamos el certificado de montaje firmado con plano as-built, verificación de verticalidad y nivelación según UNE-EN 15620, comprobación de anclajes y pasadores, y las placas de características instaladas. Es el documento de partida del libro de registro del PRSES.
 
 **¿Cuánto tarda un montaje? **
 
@@ -961,6 +1002,10 @@ Una entreplanta metálica desmontable es un equipo de trabajo, no una obra civil
 **¿Cuánto tarda el montaje? **
 
 Una entreplanta de 200 a 400 m² se monta en una o dos semanas, incluyendo forjado, barandillas y escalera, sin parar la actividad de la planta baja más allá de la zona de trabajo.
+
+**¿Cuánto cuesta una entreplanta metálica? **
+
+El precio por m² depende de la carga de uso (no es lo mismo archivo que palés con transpaleta), la luz entre pilares, la altura libre, el tipo de forjado y los accesorios (escaleras, barandillas, puertas de carga). Con las medidas de la nave y el uso previsto le damos un presupuesto cerrado llave en mano, incluido cálculo y certificado.
 
 **¿Se puede desmontar y trasladar? **
 
@@ -1226,7 +1271,7 @@ Es lo primero que pide un inspector. Debe recoger, con fecha y firma: la documen
 
 ## Plantilla de revisión periódica
 
-Por cada calle y módulo: puntales (golpes, deformación con regla de 1 m), diagonales, largueros (flecha, pasadores de seguridad presentes), anclajes y placas base, protecciones, placa de características visible y correcta, palés en buen estado y bien centrados, pasillo libre. Pídanos la plantilla en PDF por WhatsApp; se la enviamos sin compromiso.
+Por cada calle y módulo: puntales (golpes, deformación con regla de 1 m), diagonales, largueros (flecha, pasadores de seguridad presentes), anclajes y placas base, protecciones, placa de características visible y correcta, palés en buen estado y bien centrados, pasillo libre. Tiene el [checklist completo de revisión](https://almarack.com/checklist-revision-estanterias/) en esta web; pídanos también la plantilla en PDF por WhatsApp.
 
 ## Lo que pide la Inspección de Trabajo
 
@@ -1351,7 +1396,11 @@ Almar-Rack ejecuta cada uno de estos hitos: [montaje certificado](https://almara
 
 ## Preguntas frecuentes
 
-**¿Una norma UNE es de obligado cumplimiento? **
+**¿Qué es la UNE-EN 15635? **
+
+Es la norma europea (EN 15635, adoptada en España como UNE-EN 15635) que regula el uso y mantenimiento de las estanterías metálicas de almacenamiento: cómo deben usarse, quién es responsable de su seguridad (el PRSES), cómo y cada cuánto deben inspeccionarse, cómo clasificar los daños (verde, ámbar, rojo) y qué hacer en cada caso. No trata el cálculo (eso es la UNE-EN 15512) ni el montaje (UNE-EN 15620).
+
+**¿La UNE-EN 15635 es de obligado cumplimiento? **
 
 Por sí misma no, pero el RD 1215/1997 obliga al empresario a mantener los equipos de trabajo seguros y a seguir las «normas técnicas» aplicables; el INSST, en la NTP 852, identifica la UNE-EN 15635 como esa referencia. En la práctica, la Inspección de Trabajo y los tribunales la usan como criterio para determinar si el mantenimiento fue adecuado.
 
@@ -1547,6 +1596,128 @@ Pedir valoración por WhatsApp
 ## ¿Quiere ver cómo quedaría en su nave?
 
 Envíenos fotos de sus pasillos y cabeceras. Le proponemos protecciones, reparaciones o montaje con presupuesto cerrado.
+
+WhatsApp
+660 82 34 82
+
+Contacto
+
+## Hable con un técnico, no con un comercial.
+
+Mándenos por WhatsApp unas fotos del puntal, del pasillo o del plano de la nave y le devolvemos una valoración orientativa en menos de 2 horas laborables. Primera visita gratuita y sin compromiso.
+
+WhatsApp 660 82 34 82respuesta < 2 h
+Llamar al 660 82 34 82Lunes a domingo, 8:00–20:00
+info@almarack.com
+
+- Responsable técnico: Diego Núñez Narváez
+
+- Teléfonos: 660 82 34 82 · 949 00 70 51
+
+- Horario: Lunes a domingo, 8:00–20:00
+
+- Sede: C/ Alvarfáñez de Minaya 1B, 19001 Guadalajara · Cómo llegar
+
+- Urgencias: Intervención en 24/48 h en el Corredor del Henares y Madrid
+
+- Cobertura: Las 17 comunidades autónomas, con base operativa en Guadalajara (eje A-2)
+
+- Datos útiles: Huecos-palé o metros lineales, altura, tipo de carga, marca de estantería, fotos de daños
+
+---
+
+<!-- https://almarack.com/checklist-revision-estanterias/ -->
+- [Inicio](https://almarack.com/)
+- [Recursos](https://almarack.com/preguntas-frecuentes/)
+- Checklist de revisión
+
+# Checklist de revisión de estanterías metálicas
+
+El formato de revisión periódica que la UNE-EN 15635 pide al PRSES, punto por punto. Imprímalo, recorra las calles y anote el resultado en el libro de registro. Si algo sale en ámbar o rojo, ya sabe a quién llamar.
+
+Pedir valoración por WhatsApp
+660 82 34 82
+
+## Checklist de revisión periódica
+UNE-EN 15635 · revisión del PRSES
+
+### Puntales y bastidores
+
+- Sin deformación >3 mm con regla de 1 m en el plano del bastidor (>5 mm en el transversal)
+- Sin cortes, cizalladuras, pandeo ni soldaduras rotas
+- Placa base recta y apoyada; anclajes presentes y apretados
+- Calzos de nivelación en su sitio; verticalidad correcta a simple vista
+
+### Largueros
+
+- Sin flecha permanente visible una vez descargado
+- Enganches sin deformación; sin golpes de horquilla
+- Pasadores o clips de seguridad colocados en ambos extremos
+- Sin niveles movidos respecto a la placa de características
+
+### Diagonales y arriostrados
+
+- Diagonales rectas, sin abolladuras ni desmontadas
+- Tornillería completa y apretada
+- Arriostrados verticales y horizontales íntegros
+
+### Placas de características
+
+- Una placa visible por alineación
+- Carga por nivel y por módulo coherente con la configuración real
+- Distancias entre niveles iguales a las de la placa
+
+### Protecciones y pasillos
+
+- Protectores de puntal y cabeceras íntegros y anclados
+- Barreras, bolardos y pasos peatonales sin daños
+- Pasillos libres; ancho suficiente para la carretilla
+- Señalización y marcado de suelo visibles
+
+### Carga y uso
+
+- Palés en buen estado, centrados y sin sobresalir
+- Sin sobrecarga respecto a la placa
+- Sin mercancía apoyada en diagonales ni sobre largueros sueltos
+- Golpes de la semana comunicados por los carretilleros
+
+Pedir el checklist en PDF[Guía del PRSES](https://almarack.com/guia-prses-seguridad-almacen/)
+
+## Qué hacer con cada resultado
+
+| Resultado | Qué significa | Qué hacer |
+
+| Verde | Sin daño o deformación < 3 mm | Anotar en el libro de registro y revisar en la siguiente ronda. |
+
+| Ámbar | Deformación 3–6 mm o elemento dañado sin riesgo inmediato | Programar la reparación antes de 4 semanas. No volver a cargar el módulo una vez vaciado. [Pedir sustitución del tramo](https://almarack.com/reparacion-estanterias-in-situ/). |
+
+| Rojo | Deformación > 6 mm, corte, cizalladura, soldadura rota o diagonal doblada | Descargar los niveles afectados de inmediato, balizar el pasillo y llamar. Urgencias en 24/48 h. |
+
+## Revisión interna e inspección experta no son lo mismo
+
+Este checklist es la revisión periódica que hace el PRSES con medios propios. La inspección experta anual la realiza un técnico competente e independiente con instrumental, y termina en un informe pericial y un certificado. Las dos son obligatorias y se complementan: la revisión detecta el daño entre inspecciones; la inspección certifica el estado de la instalación ante la Inspección de Trabajo. [Cómo es nuestra inspección técnica](https://almarack.com/inspecciones-une-en-15635/).
+
+## Preguntas frecuentes
+
+**¿Con qué frecuencia debo pasar este checklist? **
+
+La UNE-EN 15635 habla de revisiones periódicas «a intervalos regulares» definidos por el PRSES según el riesgo. En almacenes con tráfico intenso de carretillas lo habitual es semanal; en almacenes de baja rotación, mensual. Además, cualquier golpe debe comunicarse y registrarse el mismo día.
+
+**¿Sustituye este checklist a la inspección anual? **
+
+No. Es la revisión interna del PRSES. La inspección experta anual la debe hacer una persona técnicamente competente e independiente, con medición instrumental e informe pericial. Este checklist sirve para detectar daños entre inspecciones y para tener el libro de registro al día.
+
+**¿Qué hago si encuentro un daño? **
+
+Mida la deformación con una regla de 1 m: menos de 3 mm, anotar y vigilar; 3–6 mm, reparar en 4 semanas; más de 6 mm, cizalladura o soldadura rota, descargar el módulo de inmediato y balizar. En los dos últimos casos, mándenos una foto por WhatsApp y le decimos qué hay que sustituir.
+
+**¿Me podéis enviar el checklist en PDF? **
+
+Sí. Escríbanos por WhatsApp al 660 82 34 82 y se lo enviamos en PDF para imprimir, junto con la plantilla del libro de registro del PRSES, sin compromiso.
+
+## ¿Ha salido algo en ámbar o rojo?
+
+Mándenos la foto por WhatsApp. Le decimos qué tramo hay que sustituir, cuánto cuesta y cuándo podemos ir.
 
 WhatsApp
 660 82 34 82

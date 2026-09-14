@@ -7,6 +7,7 @@ const faq = [
   ['¿Trabajáis con estanterías de cualquier fabricante?', 'Sí. Somos independientes y multimarca: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer y marcas descatalogadas. No vendemos racks nuevos, así que no tenemos incentivo para dictaminar sustituciones innecesarias.'],
   ['¿Qué ocurre si un puntal está en nivel rojo?', 'La UNE-EN 15635 exige descargar de inmediato los niveles afectados, balizar el pasillo y reparar antes de volver a cargar. Con reparación in situ apuntalamos la carga y sustituimos el tramo dañado en unos 45 minutos, sin vaciar la estantería.'],
   ['¿Podéis trabajar dentro de cámaras de congelación?', 'Sí. Montamos, reparamos e inspeccionamos estanterías dentro de cámaras a −25 °C con EPI térmico y por fases, sin romper la cadena de frío.'],
+  ['¿Quién puede inspeccionar las estanterías y cada cuánto?', 'Una persona técnicamente competente e independiente, al menos cada 12 meses (UNE-EN 15635, NTP 852). Entre inspecciones, el PRSES hace revisiones periódicas con un checklist; le dejamos el nuestro gratis en la web.'],
   ['¿Cuánto cuesta una inspección técnica UNE-EN 15635?', 'Se presupuesta por huecos-palé, bastidores y niveles, con precio cerrado antes de empezar y primera visita gratuita. Con unas fotos por WhatsApp damos una valoración orientativa en menos de 2 horas.'],
 ];
 
@@ -60,12 +61,12 @@ ${panel('01', 'Inspección técnica UNE-EN 15635', 'La auditoría anual que exig
   ['V', 'Nivel verde', '< 3 mm · registrar y vigilar', '/inspecciones-une-en-15635/'],
   ['A', 'Nivel ámbar', '3–6 mm · reparar en 4 semanas', '/inspecciones-une-en-15635/'],
   ['R', 'Nivel rojo', '> 6 mm · descarga inmediata', '/inspecciones-une-en-15635/'],
-  ['PR', 'Guía del PRSES', 'Obligaciones y libro de registro', '/guia-prses-seguridad-almacen/'],
+  ['PR', 'Checklist de revisión', 'El formato del PRSES, gratis', '/checklist-revision-estanterias/'],
 ], 'inspeccion-camara-frio-epi', 'Técnico de Almar-Rack con EPI durante una inspección en cámara de congelación', '/inspecciones-une-en-15635/', 'Inspección · cámara a −25 °C', false)}
-${panel('02', 'Reparación de puntales in situ', 'Un puntal golpeado obliga a descargar el módulo. Apuntalamos hidráulicamente la carga de los niveles superiores y sustituimos el tramo dañado por uno nuevo homologado, sin vaciar la estantería ni desmontar el bastidor. El pasillo vuelve a producir el mismo día.', [['45 min', 'Por puntal'], ['0', 'Palés descargados'], ['24/48 h', 'Urgencias']], [
+${panel('02', 'Reparación de puntales in situ', 'Un puntal golpeado obliga a descargar el módulo. Apuntalamos la carga de los niveles superiores, desanclamos el puntal afectado, cortamos la parte dañada y empalmamos un tramo nuevo homologado conforme a la normativa, sin vaciar la estantería ni desmontar el bastidor. El pasillo vuelve a producir el mismo día.', [['45 min', 'Por puntal'], ['0', 'Palés descargados'], ['24/48 h', 'Urgencias']], [
   ['01', 'Diagnóstico por foto', 'Le decimos qué tramo hay que cambiar en 2 h', '/reparacion-estanterias-in-situ/'],
-  ['02', 'Apuntalado hidráulico', 'La mercancía se queda donde está', '/reparacion-estanterias-in-situ/'],
-  ['03', 'Sustitución del tramo', 'Empalme homologado o puntal completo', '/reparacion-estanterias-in-situ/'],
+  ['02', 'Apuntalado y desanclaje', 'La mercancía se queda donde está', '/reparacion-estanterias-in-situ/'],
+  ['03', 'Corte y empalme del tramo', 'Tramo nuevo homologado, según normativa', '/reparacion-estanterias-in-situ/'],
   ['04', 'Verificación y certificado', 'Regla de 1 m, galga y foto antes/después', '/reparacion-estanterias-in-situ/'],
 ], 'dano-puntal-base-golpe-2', 'Base de puntal deformada por impacto de carretilla, pendiente de sustitución', '/reparacion-estanterias-in-situ/', 'Puntal golpeado · Madrid', true)}
 ${panel('03', 'Protecciones MPM para pasillos y muelles', 'Nueve de cada diez daños empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Flexible Protections montamos protecciones de polímero que absorben el golpe, recuperan su forma y no rompen la solera.', [['MPM', 'Distribuidor oficial'], ['−80 %', 'Daños por impacto'], ['0', 'Anclajes arrancados']], [

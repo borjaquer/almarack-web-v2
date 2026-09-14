@@ -51,7 +51,7 @@ prses.body = pageHero(prses) + plateRows('Ficha del PRSES', [
 <h3>4. Mantener el libro de registro</h3>
 <p>Es lo primero que pide un inspector. Debe recoger, con fecha y firma: la documentación de montaje y las placas; cada revisión periódica y su resultado; los partes de daño comunicados; las inspecciones anuales; las reparaciones ejecutadas y su verificación; y toda modificación de la instalación.</p>
 <h2>Plantilla de revisión periódica</h2>
-<p>Por cada calle y módulo: puntales (golpes, deformación con regla de 1 m), diagonales, largueros (flecha, pasadores de seguridad presentes), anclajes y placas base, protecciones, placa de características visible y correcta, palés en buen estado y bien centrados, pasillo libre. Pídanos la plantilla en PDF por WhatsApp; se la enviamos sin compromiso.</p>
+<p>Por cada calle y módulo: puntales (golpes, deformación con regla de 1 m), diagonales, largueros (flecha, pasadores de seguridad presentes), anclajes y placas base, protecciones, placa de características visible y correcta, palés en buen estado y bien centrados, pasillo libre. Tiene el <a href="/checklist-revision-estanterias/">checklist completo de revisión</a> en esta web; pídanos también la plantilla en PDF por WhatsApp.</p>
 <h2>Lo que pide la Inspección de Trabajo</h2>
 <ul>
 <li>Nombramiento del PRSES por escrito</li>
@@ -64,7 +64,8 @@ prses.body = pageHero(prses) + plateRows('Ficha del PRSES', [
 
 /* =================================================================== NORMATIVA */
 const normFaq = [
-  ['¿Una norma UNE es de obligado cumplimiento?', 'Por sí misma no, pero el RD 1215/1997 obliga al empresario a mantener los equipos de trabajo seguros y a seguir las «normas técnicas» aplicables; el INSST, en la NTP 852, identifica la UNE-EN 15635 como esa referencia. En la práctica, la Inspección de Trabajo y los tribunales la usan como criterio para determinar si el mantenimiento fue adecuado.'],
+  ['¿Qué es la UNE-EN 15635?', 'Es la norma europea (EN 15635, adoptada en España como UNE-EN 15635) que regula el uso y mantenimiento de las estanterías metálicas de almacenamiento: cómo deben usarse, quién es responsable de su seguridad (el PRSES), cómo y cada cuánto deben inspeccionarse, cómo clasificar los daños (verde, ámbar, rojo) y qué hacer en cada caso. No trata el cálculo (eso es la UNE-EN 15512) ni el montaje (UNE-EN 15620).'],
+  ['¿La UNE-EN 15635 es de obligado cumplimiento?', 'Por sí misma no, pero el RD 1215/1997 obliga al empresario a mantener los equipos de trabajo seguros y a seguir las «normas técnicas» aplicables; el INSST, en la NTP 852, identifica la UNE-EN 15635 como esa referencia. En la práctica, la Inspección de Trabajo y los tribunales la usan como criterio para determinar si el mantenimiento fue adecuado.'],
   ['¿Qué diferencia hay entre UNE-EN 15512, 15620 y 15635?', 'La 15512 regula el cálculo y diseño estructural (cuánto aguanta); la 15620 las tolerancias de fabricación y montaje (cómo debe quedar instalada); la 15635 el uso, la inspección y el mantenimiento durante la vida de la instalación (cómo se conserva segura). Almar-Rack trabaja con las tres: monta según 15620, calcula placas según 15512 e inspecciona según 15635.'],
   ['¿Cuál es la sanción por un accidente con una estantería sin mantenimiento?', 'Multa administrativa (LISOS) de 2.451 a 49.180 € por infracción grave y hasta 983.736 € por muy grave; recargo del 30–50 % de las prestaciones de la Seguridad Social a cargo de la empresa; responsabilidad civil por daños; y posible responsabilidad penal de los responsables (arts. 316–317 del Código Penal).'],
 ];
@@ -145,6 +146,57 @@ const faqPage = {
 };
 faqPage.body = pageHero(faqPage) + faqHtml(allFaq, 'Todas las respuestas, en un solo sitio.') + ctaBand('¿Su pregunta es sobre su almacén en concreto?', 'Mándenos fotos y datos por WhatsApp; se la responde un técnico, no un formulario.') + contactPlate();
 
+
+/* =================================================================== CHECKLIST */
+const chkFaq = [
+  ['¿Con qué frecuencia debo pasar este checklist?', 'La UNE-EN 15635 habla de revisiones periódicas «a intervalos regulares» definidos por el PRSES según el riesgo. En almacenes con tráfico intenso de carretillas lo habitual es semanal; en almacenes de baja rotación, mensual. Además, cualquier golpe debe comunicarse y registrarse el mismo día.'],
+  ['¿Sustituye este checklist a la inspección anual?', 'No. Es la revisión interna del PRSES. La inspección experta anual la debe hacer una persona técnicamente competente e independiente, con medición instrumental e informe pericial. Este checklist sirve para detectar daños entre inspecciones y para tener el libro de registro al día.'],
+  ['¿Qué hago si encuentro un daño?', 'Mida la deformación con una regla de 1 m: menos de 3 mm, anotar y vigilar; 3–6 mm, reparar en 4 semanas; más de 6 mm, cizalladura o soldadura rota, descargar el módulo de inmediato y balizar. En los dos últimos casos, mándenos una foto por WhatsApp y le decimos qué hay que sustituir.'],
+  ['¿Me podéis enviar el checklist en PDF?', 'Sí. Escríbanos por WhatsApp al 660 82 34 82 y se lo enviamos en PDF para imprimir, junto con la plantilla del libro de registro del PRSES, sin compromiso.'],
+];
+const checklistPage = {
+  slug: '/checklist-revision-estanterias/',
+  title: 'Checklist de revisión de estanterías metálicas (PRSES) · Formato de inspección periódica | Almar-Rack',
+  description: 'Checklist gratuito para la revisión periódica de estanterías industriales según UNE-EN 15635: puntales, largueros, pasadores, anclajes, placas de carga, protecciones y pasillos. Qué mirar, cómo medir y qué hacer con cada daño. Para el PRSES y el jefe de almacén.',
+  h1: 'Checklist de revisión de estanterías metálicas',
+  lead: 'El formato de revisión periódica que la UNE-EN 15635 pide al PRSES, punto por punto. Imprímalo, recorra las calles y anote el resultado en el libro de registro. Si algo sale en ámbar o rojo, ya sabe a quién llamar.',
+  img: 'inspeccion-tecnico-pasillo', imgAlt: 'Responsable de almacén revisando puntales durante la revisión periódica', imgCap: 'Revisión periódica del PRSES',
+  crumbs: [['Inicio', '/'], ['Recursos', '/preguntas-frecuentes/'], ['Checklist de revisión', '/checklist-revision-estanterias/']],
+  faq: chkFaq,
+  schema: [{ '@type': 'HowTo', name: 'Cómo hacer la revisión periódica de estanterías metálicas según UNE-EN 15635', totalTime: 'PT1H', tool: [{ '@type': 'HowToTool', name: 'Regla de 1 metro' }, { '@type': 'HowToTool', name: 'Galga o calibre' }, { '@type': 'HowToTool', name: 'Libro de registro del PRSES' }], step: [
+    { '@type': 'HowToStep', name: 'Preparar', text: 'Imprima el checklist, identifique cada calle y módulo según el plano y lleve regla de 1 m y galga.' },
+    { '@type': 'HowToStep', name: 'Puntales', text: 'En cada puntal expuesto, apoye la regla de 1 m y mida la deformación máxima: <3 mm verde, 3–6 mm ámbar, >6 mm rojo. Revise bases, placas base y anclajes.' },
+    { '@type': 'HowToStep', name: 'Largueros y pasadores', text: 'Compruebe flecha permanente, golpes en el enganche y que todos los pasadores de seguridad están colocados.' },
+    { '@type': 'HowToStep', name: 'Diagonales y arriostrados', text: 'Busque diagonales dobladas, sueltas o con soldadura rota.' },
+    { '@type': 'HowToStep', name: 'Placas, protecciones y pasillos', text: 'Placa de características visible y correcta, protecciones íntegras, pasillos libres y palés bien colocados.' },
+    { '@type': 'HowToStep', name: 'Registrar y actuar', text: 'Anote el resultado con fecha y firma en el libro de registro. Ámbar: reparar en 4 semanas. Rojo: descargar y balizar de inmediato.' },
+  ] }],
+};
+const chk = (h, items) => `<h3>${h}</h3><ul class="checklist">${items.map((i) => `<li>${i}</li>`).join('')}</ul>`;
+checklistPage.body = pageHero(checklistPage) + `
+<section class="sec sec--tight"><div class="wrap"><div class="plate plate--pad rv"><div class="plate__title"><h2>Checklist de revisión periódica</h2><span class="field">UNE-EN 15635 · revisión del PRSES</span></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 40px">
+<div>${chk('Puntales y bastidores', ['Sin deformación >3 mm con regla de 1 m en el plano del bastidor (>5 mm en el transversal)', 'Sin cortes, cizalladuras, pandeo ni soldaduras rotas', 'Placa base recta y apoyada; anclajes presentes y apretados', 'Calzos de nivelación en su sitio; verticalidad correcta a simple vista'])}</div>
+<div>${chk('Largueros', ['Sin flecha permanente visible una vez descargado', 'Enganches sin deformación; sin golpes de horquilla', 'Pasadores o clips de seguridad colocados en ambos extremos', 'Sin niveles movidos respecto a la placa de características'])}</div>
+<div>${chk('Diagonales y arriostrados', ['Diagonales rectas, sin abolladuras ni desmontadas', 'Tornillería completa y apretada', 'Arriostrados verticales y horizontales íntegros'])}</div>
+<div>${chk('Placas de características', ['Una placa visible por alineación', 'Carga por nivel y por módulo coherente con la configuración real', 'Distancias entre niveles iguales a las de la placa'])}</div>
+<div>${chk('Protecciones y pasillos', ['Protectores de puntal y cabeceras íntegros y anclados', 'Barreras, bolardos y pasos peatonales sin daños', 'Pasillos libres; ancho suficiente para la carretilla', 'Señalización y marcado de suelo visibles'])}</div>
+<div>${chk('Carga y uso', ['Palés en buen estado, centrados y sin sobresalir', 'Sin sobrecarga respecto a la placa', 'Sin mercancía apoyada en diagonales ni sobre largueros sueltos', 'Golpes de la semana comunicados por los carretilleros'])}</div>
+</div>
+<div class="hero__cta" style="margin-top:28px"><a class="btn btn--orange" href="${SITE.wa}" target="_blank" rel="noopener">${ICON.wa}Pedir el checklist en PDF</a><a class="btn btn--ghost" href="/guia-prses-seguridad-almacen/">Guía del PRSES ${ICON.arrow}</a></div>
+</div></div></section>` + prose(`
+<h2>Qué hacer con cada resultado</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Resultado</th><th>Qué significa</th><th>Qué hacer</th></tr></thead>
+<tbody>
+<tr><td><span class="state state--verde">Verde</span></td><td>Sin daño o deformación &lt; 3 mm</td><td>Anotar en el libro de registro y revisar en la siguiente ronda.</td></tr>
+<tr><td><span class="state state--ambar">Ámbar</span></td><td>Deformación 3–6 mm o elemento dañado sin riesgo inmediato</td><td>Programar la reparación antes de 4 semanas. No volver a cargar el módulo una vez vaciado. <a href="/reparacion-estanterias-in-situ/">Pedir sustitución del tramo</a>.</td></tr>
+<tr><td><span class="state state--rojo">Rojo</span></td><td>Deformación &gt; 6 mm, corte, cizalladura, soldadura rota o diagonal doblada</td><td>Descargar los niveles afectados de inmediato, balizar el pasillo y llamar. Urgencias en 24/48 h.</td></tr>
+</tbody></table></div>
+<h2>Revisión interna e inspección experta no son lo mismo</h2>
+<p>Este checklist es la <strong>revisión periódica</strong> que hace el PRSES con medios propios. La <strong>inspección experta anual</strong> la realiza un técnico competente e independiente con instrumental, y termina en un informe pericial y un certificado. Las dos son obligatorias y se complementan: la revisión detecta el daño entre inspecciones; la inspección certifica el estado de la instalación ante la Inspección de Trabajo. <a href="/inspecciones-une-en-15635/">Cómo es nuestra inspección técnica</a>.</p>
+`) + faqHtml(chkFaq) + ctaBand('¿Ha salido algo en ámbar o rojo?', 'Mándenos la foto por WhatsApp. Le decimos qué tramo hay que sustituir, cuánto cuesta y cuándo podemos ir.', true) + contactPlate();
+
 /* =================================================================== PROYECTOS */
 const proyectos = {
   slug: '/proyectos/',
@@ -203,4 +255,4 @@ proyectos.body = pageHero(proyectos)
   ])
   + ctaBand('¿Quiere ver cómo quedaría en su nave?', 'Envíenos fotos de sus pasillos y cabeceras. Le proponemos protecciones, reparaciones o montaje con presupuesto cerrado.') + contactPlate();
 
-module.exports = [prses, normativa, faqPage, proyectos];
+module.exports = [prses, normativa, faqPage, proyectos, checklistPage];

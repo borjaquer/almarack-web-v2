@@ -51,6 +51,7 @@ const NAV = {
   recursos: [
     ['/guia-prses-seguridad-almacen/', 'Guía del PRSES', 'Obligaciones, revisiones y libro de registro'],
     ['/normativa-estanterias-industriales/', 'Normativa de estanterías', 'RD 1215/1997, UNE-EN 15635, NTP 852'],
+    ['/checklist-revision-estanterias/', 'Checklist de revisión', 'Formato de revisión periódica del PRSES'],
     ['/preguntas-frecuentes/', 'Preguntas frecuentes', 'Plazos, precios, responsabilidades'],
     ['/proyectos/', 'Proyectos realizados', 'Fotos reales de nuestras intervenciones'],
   ],
