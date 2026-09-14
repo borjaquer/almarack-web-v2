@@ -30,8 +30,8 @@ const panel = (n, h2, lead, facts, list, imgSlug, alt, href) => `
 
 const body = `
 <section class="hero">
-  <div class="hero__bg">
-    <video id="heroVid" poster="/assets/hero-poster-1920.webp" autoplay loop muted playsinline preload="none" aria-hidden="true"><source data-src="/assets/hero-1280.mp4" type="video/mp4"></video>
+  <div class="hero__bg"><div class="hero__glow" aria-hidden="true"></div>
+    <video id="heroVid" poster="/assets/hero-poster-1920.webp" autoplay loop muted playsinline preload="none" aria-hidden="true"><source data-src="/assets/hero-1080.webm" type="video/webm"><source data-src="/assets/hero-1080.mp4" type="video/mp4"></video>
   </div>
   <div class="wrap hero__in">
     <p class="tag h-rv">Inspección · Reparación · Protecciones · Montaje</p>
@@ -90,6 +90,7 @@ ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías
       <p class="tag">Cobertura</p>
       <p class="spain__big" style="margin-top:18px">Toda<br><em>España.</em></p>
       <p class="lead" style="margin-top:22px">Base en Guadalajara, en el eje A-2: urgencias en 24/48 h y sin recargo de desplazamiento en el Corredor del Henares y la Comunidad de Madrid. Para el resto del país, equipos móviles con intervención planificada en cualquiera de las 17 comunidades.</p>
+      <p style="margin-top:18px"><a class="btn btn--orange" href="/cobertura-nacional/">Ver cobertura nacional ${ICON.arrow}</a></p>
       <div class="hubs">
         <div><b>Centro</b><span>Madrid, Guadalajara, Toledo, Illescas, Ontígola</span></div>
         <div><b>Levante</b><span>Valencia, Alicante, Murcia, Castellón</span></div>

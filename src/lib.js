@@ -55,9 +55,11 @@ const NAV = {
     ['/proyectos/', 'Proyectos realizados', 'Fotos reales de nuestras intervenciones'],
   ],
   zonas: [
-    ['/inspeccion-estanterias-corredor-del-henares/', 'Corredor del Henares', 'Guadalajara, Cabanillas, Azuqueca, Alcalá'],
-    ['/inspeccion-estanterias-madrid/', 'Comunidad de Madrid', 'Polígonos de Madrid y su cinturón logístico'],
+    ['/cobertura-nacional/', 'Toda España', '17 comunidades autónomas · equipos móviles'],
+    ['/inspeccion-estanterias-corredor-del-henares/', 'Corredor del Henares', 'Base operativa · urgencias 24/48 h'],
+    ['/inspeccion-estanterias-madrid/', 'Comunidad de Madrid', 'Sin recargo por desplazamiento'],
   ],
+  regiones: ['Andalucía', 'Aragón', 'Asturias', 'Baleares', 'Canarias', 'Cantabria', 'Castilla-La Mancha', 'Castilla y León', 'Cataluña', 'Com. Valenciana', 'Extremadura', 'Galicia', 'La Rioja', 'Madrid', 'Murcia', 'Navarra', 'País Vasco'],
 };
 
 function menu(items, wide) {
@@ -73,7 +75,11 @@ function header(current) {
   <nav class="nav__links" aria-label="Principal">
     <details><summary>Servicios</summary>${menu(NAV.servicios, true)}</details>
     <details><summary>Recursos</summary>${menu(NAV.recursos)}</details>
-    <details><summary>Zonas</summary>${menu(NAV.zonas)}</details>
+    <details><summary>Zonas</summary><div class="menu menu--zonas">
+      <a class="mz__hero" href="/cobertura-nacional/"><span class="mz__big">Toda España</span><small>Las 17 comunidades autónomas. Urgencias 24/48 h en el eje A-2 y Madrid; equipos móviles en el resto del país.</small></a>
+      <div class="mz__grid">${NAV.regiones.map((r) => `<span>${r}</span>`).join('')}</div>
+      <div class="mz__foot"><a href="/inspeccion-estanterias-corredor-del-henares/"><span>Corredor del Henares</span><small>Base operativa · 24/48 h</small></a><a href="/inspeccion-estanterias-madrid/"><span>Comunidad de Madrid</span><small>Sin recargo por desplazamiento</small></a></div>
+    </div></details>
     <a href="/proyectos/"${act('/proyectos/')}>Proyectos</a>
     <a href="/sobre-almarack/"${act('/sobre-almarack/')}>Empresa</a>
     <a href="/contacto/"${act('/contacto/')}>Contacto</a>

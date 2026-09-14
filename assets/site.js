@@ -63,9 +63,9 @@
         saveData = !!(navigator.connection && navigator.connection.saveData),
         reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!(isMobile || saveData || reduced)) {
-      var source = vid.querySelector('source[data-src]'), loaded = false;
+      var sources = vid.querySelectorAll('source[data-src]'), loaded = false;
       var play = function () {
-        if (!loaded && source) { source.src = source.getAttribute('data-src'); vid.load(); loaded = true; }
+        if (!loaded && sources.length) { sources.forEach(function (s) { s.src = s.getAttribute('data-src'); }); vid.load(); loaded = true; }
         var p = vid.play(); if (p && p.catch) p.catch(function () {});
       };
       if ('IntersectionObserver' in window) {

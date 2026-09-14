@@ -8,7 +8,7 @@ const plateRows = (h, rows) => `
 
 /* =================================================================== ZONAS */
 const zona = (p, polys, extra) => {
-  p.crumbs = [['Inicio', '/'], ['Zonas', p.slug], [p.short, p.slug]];
+  p.crumbs = [['Inicio', '/'], ['Zonas', '/cobertura-nacional/'], [p.short, p.slug]];
   p.schema = [Object.assign(serviceSchema(p), { areaServed: polys.map(([n]) => ({ '@type': 'Place', name: n })) })];
   p.body = pageHero(p) + `
 <section class="sec sec--tight"><div class="wrap">
@@ -89,6 +89,45 @@ const madrid = zona({
 <li><a href="/placas-de-caracteristicas-estanterias/">Placas de características</a> y legalización de estanterías sin documentación.</li>
 <li><a href="/montaje-estanterias-industriales/">Montaje</a>, <a href="/montaje-estanterias-camaras-frio/">cámaras de frío</a> y <a href="/entreplantas-altillos-metalicos/">entreplantas</a>.</li>
 </ul>
+`));
+
+
+/* =================================================================== COBERTURA NACIONAL */
+const nacional = zona({
+  slug: '/cobertura-nacional/',
+  short: 'Toda España',
+  serviceName: 'Inspección, reparación y montaje de estanterías industriales en toda España',
+  title: 'Estanterías industriales en toda España · Inspección, reparación y montaje en las 17 comunidades | Almar-Rack',
+  description: 'Almar-Rack trabaja en toda España: inspección UNE-EN 15635, reparación de puntales in situ, protecciones MPM, placas de carga, montaje y entreplantas en las 17 comunidades autónomas. Base en Guadalajara con urgencias 24/48 h en Madrid y el Corredor del Henares; equipos móviles para el resto del país.',
+  h1: 'Trabajamos en toda España',
+  lead: 'Andalucía, Aragón, Asturias, Baleares, Canarias, Cantabria, Castilla-La Mancha, Castilla y León, Cataluña, Comunidad Valenciana, Extremadura, Galicia, La Rioja, Madrid, Murcia, Navarra y País Vasco. Desde Guadalajara salimos a cualquier nave del país con equipos móviles, herramienta propia y el mismo criterio técnico.',
+  img: 'protecciones-nave-fragadis', imgAlt: 'Plataforma logística en Alicante con estanterías de gran altura protegidas por Almar-Rack', imgCap: 'Plataforma logística · Alicante',
+  ctaH: '¿Su nave está lejos de Madrid?', ctaP: 'Da igual. Mándenos fotos y ubicación por WhatsApp; planificamos la intervención con equipo móvil y presupuesto cerrado, sin sorpresas de desplazamiento.',
+  faq: [
+    ['¿Cobráis desplazamiento fuera de Madrid y Guadalajara?', 'En el Corredor del Henares y la Comunidad de Madrid no. En el resto de España el desplazamiento se incluye en el presupuesto cerrado que recibe antes de empezar, agrupando visitas por zona para que sea lo más ajustado posible.'],
+    ['¿Cuánto tardáis en llegar a otra comunidad?', 'Las intervenciones fuera del eje A-2 se planifican en días, no en semanas: normalmente entre 3 y 10 días laborables según la zona y el volumen. Urgencias por puntal en rojo se priorizan.'],
+    ['¿Habéis trabajado ya fuera de Madrid?', 'Sí. Por ejemplo, protecciones MPM en 28 alineaciones de una plataforma logística en Alicante, montajes en Castilla-La Mancha y Aragón, y clientes con varias naves en distintas provincias que quieren un único proveedor y un único informe.'],
+    ['¿Podéis llevar un plan de mantenimiento para varias naves en distintas provincias?', 'Sí. Es uno de los casos más habituales: un calendario único, un informe consolidado por centro y un solo interlocutor para la dirección de operaciones.'],
+  ],
+}, [
+  ['Centro', 'Madrid, Guadalajara, Toledo, Illescas, Ontígola, Cuenca, Ciudad Real, Albacete'],
+  ['Levante', 'Valencia, Alicante, Castellón, Murcia, Cartagena'],
+  ['Noreste', 'Zaragoza, Huesca, Barcelona, Tarragona, Lleida, Girona'],
+  ['Norte', 'Bilbao, Vitoria, San Sebastián, Pamplona, Logroño, Burgos, Santander'],
+  ['Noroeste', 'Valladolid, León, Palencia, Salamanca, Oviedo, Gijón, A Coruña, Vigo'],
+  ['Sur', 'Sevilla, Málaga, Córdoba, Granada, Cádiz, Huelva, Jaén, Almería'],
+  ['Extremadura', 'Badajoz, Mérida, Cáceres'],
+  ['Baleares', 'Palma, Ibiza, Menorca'],
+  ['Canarias', 'Las Palmas, Tenerife'],
+], prose(`
+<h2>Cómo organizamos un trabajo lejos de la base</h2>
+<ol>
+<li><strong>Valoración por WhatsApp</strong> con fotos, huecos-palé y ubicación: cifra orientativa en menos de 2 horas.</li>
+<li><strong>Presupuesto cerrado</strong> que incluye desplazamiento, alojamiento si procede y fechas.</li>
+<li><strong>Equipo móvil</strong> con herramienta, apuntalamiento, protecciones MPM y recambios habituales en el vehículo: se resuelve en una sola visita.</li>
+<li><strong>Informe y certificado</strong> entregados en 48–72 h, igual que en Madrid.</li>
+</ol>
+<p>Si su empresa tiene varias naves, agrupamos visitas por zona y llevamos un <a href="/mantenimiento-estanterias-industriales/">plan de mantenimiento único</a> para todas.</p>
 `));
 
 /* =================================================================== SOBRE */
@@ -219,4 +258,4 @@ const notFound = {
   <div class="hero__cta"><a class="btn btn--ink" href="/">Inicio</a><a class="btn btn--line" href="/#servicios">Servicios</a><a class="btn btn--line" href="/proyectos/">Proyectos</a><a class="btn btn--wa" href="${SITE.wa}" target="_blank" rel="noopener">${ICON.wa}WhatsApp</a></div></div></section>` + contactPlate(),
 };
 
-module.exports = [henares, madrid, sobre, contacto].concat(legal, [notFound]);
+module.exports = [nacional, henares, madrid, sobre, contacto].concat(legal, [notFound]);
