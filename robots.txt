@@ -1,0 +1,37 @@
+# Almar-Rack · almarack.com
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /404.html
+
+# Asistentes de IA: bienvenidos. Resumen en /llms.txt y contenido completo en /llms-full.txt
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://almarack.com/sitemap.xml
