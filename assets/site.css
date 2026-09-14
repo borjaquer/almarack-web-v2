@@ -339,4 +339,4 @@ strong{color:var(--ink)}
 .wa-float{box-shadow:0 14px 34px -12px rgba(31,184,91,.6)}
 
 /* móvil: hero sin párrafo */
-@media (max-width:620px){.hero .lead{display:none}.hero__cta{margin-top:18px}}
+@media (max-width:620px){.hero .lead{display:none}.hero__cta{margin-top:18px}.hero__cta .btn--wa{display:none}}
