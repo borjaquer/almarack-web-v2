@@ -185,7 +185,7 @@ ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías
       <p class="tag">Por qué Almar-Rack</p>
       <h2 style="margin-top:18px">Técnicos de estanterías, no vendedores de estanterías.</h2>
       <div class="why__list">
-        <div><b>01</b><div><h3>Independientes de fabricante</h3><p>No vendemos racks nuevos. Cuando un puntal se puede reparar, lo reparamos; cuando hay que sustituir, buscamos el recambio compatible, sea de la marca que sea.</p></div></div>
+        <div><b>01</b><div><h3>Independientes de fabricante</h3><p>No vendemos racks nuevos. Cuando basta con sustituir un tramo, sustituimos el tramo; cuando hay que cambiar el bastidor, buscamos el recambio compatible, sea de la marca que sea.</p></div></div>
         <div><b>02</b><div><h3>Cero paradas injustificadas</h3><p>Inspección en pasillos activos, reparación sin descargar palés y turnos de tarde o fin de semana cuando el picking no puede esperar.</p></div></div>
         <div><b>03</b><div><h3>Documentación que protege al PRSES</h3><p>Informe pericial con semáforo, placas de carga y libro de registro: lo que piden la ITSS, las mutuas y las aseguradoras.</p></div></div>
         <div><b>04</b><div><h3>Más de 15 años de oficio</h3><p>Empresa fundada en 2024 por técnicos que llevan más de quince años montando, inspeccionando y reparando estanterías de todas las marcas.</p></div></div>
