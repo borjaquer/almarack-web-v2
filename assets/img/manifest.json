@@ -205,5 +205,11 @@
   "w": 1800,
   "h": 2400,
   "src": "envases/91facd0a-67f3-4284-9562-9325032851c8.jpg"
+ },
+ "inspeccion-tecnica-estanterias": {
+  "w": 2400,
+  "h": 1875,
+  "src": "inspecciones/tecnica-mian-image.jpg",
+  "edit": "muapi ai-image-upscale x2 (elegida por el cliente)"
  }
 }

@@ -62,7 +62,7 @@ ${panel('01', 'Inspección técnica UNE-EN 15635', 'La auditoría anual que exig
   ['A', 'Nivel ámbar', '3–6 mm · reparar en 4 semanas', '/inspecciones-une-en-15635/'],
   ['R', 'Nivel rojo', '> 6 mm · descarga inmediata', '/inspecciones-une-en-15635/'],
   ['PR', 'Checklist de revisión', 'El formato del PRSES, gratis', '/checklist-revision-estanterias/'],
-], 'inspeccion-camara-frio-epi', 'Técnico de Almar-Rack con EPI durante una inspección en cámara de congelación', '/inspecciones-une-en-15635/', 'Inspección · cámara a −25 °C', false)}
+], 'inspeccion-tecnica-estanterias', 'Técnico realizando la inspección técnica de una estantería de paletización', '/inspecciones-une-en-15635/', 'Inspección técnica UNE-EN 15635', false)}
 ${panel('02', 'Reparación de puntales in situ', 'Un puntal golpeado obliga a descargar el módulo. Apuntalamos la carga de los niveles superiores, desanclamos el puntal afectado, cortamos la parte dañada y empalmamos un tramo nuevo homologado conforme a la normativa, sin vaciar la estantería ni desmontar el bastidor. El pasillo vuelve a producir el mismo día.', [['45 min', 'Por puntal'], ['0', 'Palés descargados'], ['24/48 h', 'Urgencias']], [
   ['01', 'Diagnóstico por foto', 'Le decimos qué tramo hay que cambiar en 2 h', '/reparacion-estanterias-in-situ/'],
   ['02', 'Apuntalado y desanclaje', 'La mercancía se queda donde está', '/reparacion-estanterias-in-situ/'],

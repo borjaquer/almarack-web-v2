@@ -38,7 +38,7 @@ const inspeccion = compose({
   description: 'Inspección anual obligatoria de estanterías metálicas (inspección de racks) según UNE-EN 15635 y RD 1215/1997. Medición milimétrica, semáforo de daños verde/ámbar/rojo, informe pericial en 48–72 h y certificado válido ante la Inspección de Trabajo. Sin parar el almacén. Guadalajara, Madrid y toda España.',
   h1: 'Inspección técnica de estanterías metálicas (ITE) UNE-EN 15635',
   lead: 'La auditoría anual que exige el RD 1215/1997, hecha por técnicos independientes: medimos cada puntal, clasificamos cada daño por semáforo y entregamos el informe pericial que la Inspección de Trabajo, su mutua y su aseguradora van a pedir. Sin vaciar huecos ni parar carretillas.',
-  img: 'inspeccion-tecnico-revision', imgAlt: 'Técnico de Almar-Rack revisando una alineación de estanterías de paletización', imgCap: 'Inspección anual en plataforma logística',
+  img: 'inspeccion-tecnica-estanterias', imgAlt: 'Técnico realizando la inspección técnica de una estantería de paletización', imgCap: 'Inspección técnica UNE-EN 15635',
   ctaH: '¿Tiene la inspección anual pendiente o una auditoría PRL a la vista?', ctaP: 'Reserve fecha con unas fotos y el número aproximado de huecos-palé. Presupuesto cerrado en menos de 2 horas.',
   faq: [
     ['¿Cada cuánto hay que inspeccionar las estanterías?', 'La UNE-EN 15635 establece tres niveles: inspección visual continua por los operarios (comunicando cualquier golpe), revisión periódica documentada por el PRSES (normalmente semanal o mensual según la rotación) y una inspección experta por técnico competente e independiente al menos cada 12 meses. Tras un accidente grave o una reconfiguración también debe inspeccionarse.'],
