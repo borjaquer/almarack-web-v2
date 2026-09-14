@@ -356,3 +356,24 @@ strong{color:var(--ink)}
 }
 
 .why__img img{object-position:50% 20%}
+
+/* escritorio: ~80 % de escala y hero pegado a la izquierda */
+@media (min-width:1024px){
+  html{font-size:14px}
+  body{font-size:15px}
+  h1{font-size:clamp(2.6rem,4.4vw,4.4rem)}
+  h2{font-size:clamp(1.6rem,2.7vw,2.7rem)}
+  .hero .wrap,.hero__in{max-width:none;width:100%;justify-self:stretch}
+  .hero__in{padding-inline:56px}
+  .hero h1{max-width:14ch}
+  .hero .lead{max-width:52ch;font-size:1.02rem}
+  .hero__row{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:32px 48px}
+  .hero__meta{justify-self:start;min-width:420px}
+  .hero__meta{max-width:520px}
+  .hero__meta b{font-size:1.45rem}
+  .hero__scroll{right:56px}
+  .spain__big{font-size:clamp(2.4rem,5vw,4.6rem)}
+  .nums b{font-size:clamp(1.8rem,2.8vw,2.8rem)}
+  .feat h2{font-size:clamp(1.5rem,2.6vw,2.5rem)}
+  .foot__big{font-size:clamp(2.4rem,7.5vw,7.2rem)}
+}
