@@ -61,19 +61,19 @@ ${panel('01', 'Inspección técnica UNE-EN 15635', 'La auditoría anual que exig
   ['A', 'Nivel ámbar', '3–6 mm · reparar en 4 semanas', '/inspecciones-une-en-15635/'],
   ['R', 'Nivel rojo', '> 6 mm · descarga inmediata', '/inspecciones-une-en-15635/'],
   ['PR', 'Guía del PRSES', 'Obligaciones y libro de registro', '/guia-prses-seguridad-almacen/'],
-], 'tecnico-inspeccion-tablet', 'Técnico de Almar-Rack registrando la inspección de una estantería en tablet', '/inspecciones-une-en-15635/')}
+], 'inspeccion-tecnico-revision', 'Técnico de Almar-Rack revisando una alineación de estanterías', '/inspecciones-une-en-15635/')}
 ${panel('02', 'Reparación de puntales in situ', 'Un puntal doblado obliga a descargar el módulo. Con nuestro sistema recuperamos su geometría en el propio bastidor, con la carga apuntalada, en unos 45 minutos. El pasillo vuelve a producir el mismo día y el elemento sale certificado.', [['45 min', 'Por puntal'], ['−70 %', 'Frente a sustituir'], ['24/48 h', 'Urgencias']], [
   ['01', 'Diagnóstico por foto', 'Le decimos si es reparable en 2 h', '/reparacion-estanterias-in-situ/'],
   ['02', 'Apuntalado de la carga', 'La mercancía se queda donde está', '/reparacion-estanterias-in-situ/'],
   ['03', 'Conformado y verificación', 'Regla de 1 m, galga y certificado', '/reparacion-estanterias-in-situ/'],
   ['04', 'Sustitución cuando toca', 'Recambio compatible multimarca', '/reparacion-estanterias-in-situ/'],
-], 'tecnico-reparando-base', 'Técnico reparando la base de un puntal de estantería', '/reparacion-estanterias-in-situ/')}
+], 'dano-puntal-medicion', 'Medición con regla de un puntal golpeado antes de repararlo', '/reparacion-estanterias-in-situ/')}
 ${panel('03', 'Protecciones MPM para pasillos y muelles', 'Nueve de cada diez daños empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Flexible Protections montamos protecciones de polímero que absorben el golpe, recuperan su forma y no rompen la solera.', [['MPM', 'Distribuidor oficial'], ['−80 %', 'Daños por impacto'], ['0', 'Anclajes arrancados']], [
   ['PP', 'Protector de puntal', 'Primera línea en cada bastidor', '/protecciones-estanterias-industriales/'],
   ['BA', 'Barreras y cabeceras', 'Frenan la horquilla antes del puntal', '/protecciones-estanterias-industriales/'],
   ['BO', 'Bolardos y muelles', 'Puertas, columnas y maquinaria', '/protecciones-estanterias-industriales/'],
   ['PE', 'Pasos peatonales', 'Separar personas de carretillas', '/protecciones-estanterias-industriales/'],
-], 'carretilla-protector-mpm', 'Carretilla elevadora frenada por un protector de puntal MPM amarillo', '/protecciones-estanterias-industriales/')}
+], 'protecciones-cabecera-pasillo', 'Cabecera de pasillo con protección MPM en plataforma logística', '/protecciones-estanterias-industriales/')}
 ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías nuevas o de segunda mano de cualquier fabricante con el mismo criterio con el que luego las inspeccionamos. Dentro de cámaras a −25 °C, en altura con entreplantas, o en una mudanza completa de almacén.', [['−25 °C', 'Cámaras de frío'], ['+100 %', 'Superficie con entreplanta'], ['Multimarca', 'Sin ataduras']], [
   ['MO', 'Montaje de estanterías', 'Paletización, picking, cantilever', '/montaje-estanterias-industriales/'],
   ['FR', 'Cámaras de frío', 'Sin romper la cadena de frío', '/montaje-estanterias-camaras-frio/'],
@@ -81,7 +81,7 @@ ${panel('04', 'Montaje, frío, entreplantas y traslados', 'Montamos estanterías
   ['TR', 'Traslados y desmontajes', 'Por fases, sin parar', '/traslados-desmontaje-estanterias/'],
   ['PL', 'Placas de características', 'Cálculo de carga y legalización', '/placas-de-caracteristicas-estanterias/'],
   ['MA', 'Mantenimiento anual', 'Un solo interlocutor', '/mantenimiento-estanterias-industriales/'],
-], 'tecnico-puntal-amarillo', 'Montador de Almar-Rack fijando un puntal con protector amarillo', '/montaje-estanterias-industriales/')}
+], 'montaje-plataforma-elevadora', 'Montadores en plataforma elevadora instalando estantería de gran altura', '/montaje-estanterias-industriales/')}
 </section>
 
 <section class="sec" id="espana"><div class="wrap">
@@ -213,7 +213,7 @@ module.exports = {
   slug: '/',
   title: 'Almar-Rack · Inspección, reparación y protecciones de estanterías industriales en toda España',
   description: 'Inspección técnica UNE-EN 15635, reparación de puntales in situ sin vaciar palés, protecciones MPM, placas de carga y montaje de estanterías industriales. Independientes y multimarca. Base en Guadalajara, urgencias 24/48 h en Madrid y Corredor del Henares, servicio en las 17 comunidades autónomas.',
-  img: 'tecnico-inspeccion-tablet',
+  img: 'protecciones-cabecera-pasillo',
   imgAlt: 'Técnico de Almar-Rack inspeccionando estanterías industriales',
   faq,
   body,

@@ -294,7 +294,7 @@ function render(p) {
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap">
 <link rel="stylesheet" href="/assets/site.css">
-${p.img ? `<link rel="preload" as="image" href="/assets/img/${p.img}.webp" imagesrcset="/assets/img/${p.img}-800.webp 800w, /assets/img/${p.img}.webp ${MANIFEST[p.img].w}w" imagesizes="(max-width: 900px) 100vw, 50vw">` : ''}
+${p.img ? `<link rel="preload" as="image" href="/assets/img/${p.img}.webp" imagesrcset="/assets/img/${p.img}-800.webp 800w, /assets/img/${p.img}.webp ${MANIFEST[p.img].w}w" imagesizes="100vw">` : ''}
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })}</script>
 </head>
 <body>
