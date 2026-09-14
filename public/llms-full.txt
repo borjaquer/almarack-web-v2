@@ -362,6 +362,8 @@ Pedir valoración por WhatsApp
 
 - Certificado: Certificado de inspección firmado por técnico competente + informe pericial: válido ante ITSS, mutuas, aseguradoras y auditorías PRL
 
+- Formato: Informe de inspección con plano, listado por calle/módulo/nivel y etiquetas de inspección en cada daño; también le facilitamos el formato de revisión periódica (checklist) del PRSES
+
 - Marcas: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer y descatalogadas
 
 ## El semáforo de daños: qué mide y qué obliga
@@ -373,6 +375,8 @@ Pedir valoración por WhatsApp
 | Ámbar | 3 – 6 mm | 5 – 10 mm | Reparar o sustituir en un máximo de 4 semanas. Una vez descargado el módulo no se vuelve a cargar hasta reparar. |
 
 | Rojo | > 6 mm, cizalladura, soldadura rota, pandeo | > 10 mm o diagonal doblada | Descarga inmediata de los niveles afectados, balizar el pasillo y reparar antes de reutilizar. |
+
+Si su empresa usa la terminología de «racks», es lo mismo: inspección de racks de almacenamiento, inspección de estanterías de paletización o ITE de estanterías metálicas son el mismo servicio bajo la UNE-EN 15635.
 
 Además de la deformación, la inspección revisa los elementos que suelen fallar antes que el acero: pasadores de seguridad ausentes, anclajes flojos o arrancados, placas base dobladas, largueros sobrecargados con flecha permanente y placas de características que ya no corresponden a la configuración real.
 
@@ -386,7 +390,7 @@ Calle por calle, con regla de 1 m y galga en cada puntal, distanciómetro para d
 2
 ### Clasificación in situ
 
-Cada daño se etiqueta con adhesivo de color sobre el puntal y se fotografía con escala para que el jefe de almacén lo localice sin buscar.
+Cada daño se marca con una etiqueta de inspección de color sobre el puntal y se fotografía con escala para que el jefe de almacén lo localice sin buscar.
 
 3
 ### Informe pericial
@@ -407,6 +411,10 @@ La revisión que ofrece un fabricante busca vender bastidores nuevos. La nuestra
 - Multimarca: Mecalux, AR Racking, Esmena, Permar, Polypal, Stow y descatalogadas
 - Informe con validez documental ante ITSS, mutuas y aseguradoras
 - Presupuesto de reparación por elemento en el mismo informe, sin sorpresas
+
+## Pallet rack inspection services in Spain
+
+Almar-Rack provides independent, multi-brand warehouse rack safety inspections across Spain in accordance with EN 15635, with a full inspection report (damage map, photos, green/amber/red classification), an inspection certificate accepted by the Spanish Labour Inspectorate and insurers, and on-site repair without unloading pallets. English-speaking coordination available for international operators. Contact us on WhatsApp at +34 660 82 34 82.
 
 ## Preguntas frecuentes
 
@@ -541,6 +549,7 @@ Localizamos el tramo, el larguero o la diagonal compatible con su sistema y lo d
 - Recambio de largueros, diagonales, pasadores de seguridad y placas base
 - Reanclaje con taco químico o mecánico según solera
 - Actualización de la placa de características si cambia la configuración
+- Instalación de [protectores de puntales MPM](https://almarack.com/protecciones-estanterias-industriales/) tras la reparación para que el golpe no se repita
 
 ## Preguntas frecuentes
 
@@ -608,7 +617,7 @@ info@almarack.com
 
 # Protecciones MPM para estanterías, pasillos y muelles
 
-Nueve de cada diez daños en una estantería empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Flexible Protections, suministramos y montamos protecciones de polímero que absorben el golpe, recuperan su forma y no transmiten el impacto a la solera.
+Nueve de cada diez daños en una estantería empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Protecciones Flexibles (MPM Flexible Protections), suministramos y montamos protecciones de polímero que absorben el golpe, recuperan su forma y no transmiten el impacto a la solera.
 
 Pedir valoración por WhatsApp
 660 82 34 82
@@ -820,11 +829,12 @@ Pedir valoración por WhatsApp
 
 Elegimos el sistema por la rotación, el tipo de palé y las carretillas que usa, no por catálogo.
 
-- Paletización convencional: acceso directo a cada palé, la más versátil
+- Estanterías de paletización convencional (selectiva): acceso directo a cada palé, la más versátil
 - Compacta drive-in y push-back: máxima densidad para pocas referencias
 - Dinámica por gravedad: FIFO para alimentación y frío
 - Picking y carga ligera: preparación de pedidos y almacén de recambios
 - Cantilever: perfiles, tubos y cargas largas
+- Sistemas atornillados y de enganche sin tornillos (Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer)
 
 ## Preguntas frecuentes
 
@@ -970,7 +980,7 @@ info@almarack.com
 - [Servicios](https://almarack.com/#servicios)
 - Entreplantas y altillos
 
-# Entreplantas y altillos metálicos
+# Entreplantas y altillos metálicos desmontables
 
 Cuando la nave se queda pequeña, la solución más rápida no es mudarse: es aprovechar la altura. Montamos entreplantas metálicas desmontables con forjado, barandillas, escaleras y puertas de carga, dimensionadas para la carga real que va a soportar.
 
@@ -979,7 +989,7 @@ Pedir valoración por WhatsApp
 
 ## Ficha de la entreplanta
 
-- Estructura: Pilares y vigas de acero atornillados, dimensionados por cálculo para la carga de uso
+- Estructura: Estructura de entreplanta metálica con pilares y vigas de acero atornillados (desmontable y reubicable), dimensionada por cálculo para la carga de uso
 
 - Forjado: Tablero aglomerado hidrófugo de 38 mm, chapa colaborante, rejilla tramex o panel según uso
 
@@ -1404,6 +1414,10 @@ Es la norma europea (EN 15635, adoptada en España como UNE-EN 15635) que regula
 
 Por sí misma no, pero el RD 1215/1997 obliga al empresario a mantener los equipos de trabajo seguros y a seguir las «normas técnicas» aplicables; el INSST, en la NTP 852, identifica la UNE-EN 15635 como esa referencia. En la práctica, la Inspección de Trabajo y los tribunales la usan como criterio para determinar si el mantenimiento fue adecuado.
 
+**¿Dónde se puede descargar la UNE-EN 15635? **
+
+Es una norma europea (EN 15635) adoptada en España por UNE; el texto oficial se compra en la tienda de UNE (une.org) o en AENOR y no puede distribuirse gratuitamente. Lo que sí es público es la NTP 852 del INSST, que resume sus criterios y se descarga gratis en insst.es. En esta página tiene explicados los puntos que afectan al usuario de las estanterías.
+
 **¿Qué diferencia hay entre UNE-EN 15512, 15620 y 15635? **
 
 La 15512 regula el cálculo y diseño estructural (cuánto aguanta); la 15620 las tolerancias de fabricación y montaje (cómo debe quedar instalada); la 15635 el uso, la inspección y el mantenimiento durante la vida de la instalación (cómo se conserva segura). Almar-Rack trabaja con las tres: monta según 15620, calcula placas según 15512 e inspecciona según 15635.
@@ -1631,9 +1645,9 @@ info@almarack.com
 - [Recursos](https://almarack.com/preguntas-frecuentes/)
 - Checklist de revisión
 
-# Checklist de revisión de estanterías metálicas
+# Checklist de revisión de estanterías metálicas (formato de inspección de racks)
 
-El formato de revisión periódica que la UNE-EN 15635 pide al PRSES, punto por punto. Imprímalo, recorra las calles y anote el resultado en el libro de registro. Si algo sale en ámbar o rojo, ya sabe a quién llamar.
+El formato de revisión periódica que la UNE-EN 15635 pide al PRSES, punto por punto, válido para estanterías de Mecalux, AR Racking, Esmena o cualquier otra marca. Imprímalo, recorra las calles y anote el resultado en el libro de registro. Si algo sale en ámbar o rojo, ya sabe a quién llamar.
 
 Pedir valoración por WhatsApp
 660 82 34 82

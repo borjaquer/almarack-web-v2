@@ -165,7 +165,7 @@ const ORG = {
   ],
   openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '08:00', closes: '20:00' }],
   priceRange: '€€',
-  knowsAbout: ['UNE-EN 15635', 'UNE-EN 15512', 'RD 1215/1997', 'NTP 852', 'estanterías de paletización', 'protecciones MPM', 'PRSES', 'inspección de estanterías', 'reparación de puntales'],
+  knowsAbout: ['UNE-EN 15635', 'EN 15635', 'UNE-EN 15512', 'UNE-EN 15620', 'RD 1215/1997', 'NTP 852', 'estanterías de paletización', 'inspección de racks', 'pallet rack inspection', 'protecciones MPM', 'PRSES', 'inspección técnica de estanterías (ITE)', 'reparación de puntales', 'montaje de estanterías metálicas', 'entreplantas metálicas desmontables'],
   brand: [{ '@type': 'Brand', name: 'MPM Flexible Protections' }],
   contactPoint: [{ '@type': 'ContactPoint', telephone: SITE.tel, contactType: 'customer service', availableLanguage: ['es'], areaServed: 'ES', hoursAvailable: 'Mo-Su 08:00-20:00' }],
   sameAs: ['https://www.google.com/maps/search/?api=1&query=Almar-Rack+Guadalajara'],

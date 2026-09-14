@@ -35,7 +35,7 @@ const inspeccion = compose({
   short: 'Inspección UNE-EN 15635',
   serviceName: 'Inspección técnica de estanterías industriales UNE-EN 15635',
   title: 'Inspección técnica de estanterías metálicas (ITE) UNE-EN 15635 · Informe pericial | Almar-Rack',
-  description: 'Inspección anual obligatoria de estanterías metálicas según UNE-EN 15635 y RD 1215/1997. Medición milimétrica, semáforo de daños verde/ámbar/rojo, informe pericial en 48–72 h y certificado válido ante la Inspección de Trabajo. Sin parar el almacén. Guadalajara, Madrid y toda España.',
+  description: 'Inspección anual obligatoria de estanterías metálicas (inspección de racks) según UNE-EN 15635 y RD 1215/1997. Medición milimétrica, semáforo de daños verde/ámbar/rojo, informe pericial en 48–72 h y certificado válido ante la Inspección de Trabajo. Sin parar el almacén. Guadalajara, Madrid y toda España.',
   h1: 'Inspección técnica de estanterías metálicas (ITE) UNE-EN 15635',
   lead: 'La auditoría anual que exige el RD 1215/1997, hecha por técnicos independientes: medimos cada puntal, clasificamos cada daño por semáforo y entregamos el informe pericial que la Inspección de Trabajo, su mutua y su aseguradora van a pedir. Sin vaciar huecos ni parar carretillas.',
   img: 'inspeccion-tecnico-revision', imgAlt: 'Técnico de Almar-Rack revisando una alineación de estanterías de paletización', imgCap: 'Inspección anual en plataforma logística',
@@ -63,6 +63,7 @@ const inspeccion = compose({
     ['Plazo de entrega', '48–72 h desde la visita'],
     ['Interrupción', 'Ninguna: pasillos activos, sin descargar palés'],
     ['Certificado', 'Certificado de inspección firmado por técnico competente + informe pericial: válido ante ITSS, mutuas, aseguradoras y auditorías PRL'],
+    ['Formato', 'Informe de inspección con plano, listado por calle/módulo/nivel y etiquetas de inspección en cada daño; también le facilitamos el formato de revisión periódica (checklist) del PRSES'],
     ['Marcas', 'Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer y descatalogadas'],
   ]),
   prose(`
@@ -74,11 +75,12 @@ const inspeccion = compose({
 <tr><td><span class="state state--ambar">Ámbar</span></td><td>3 – 6 mm</td><td>5 – 10 mm</td><td>Reparar o sustituir en un máximo de 4 semanas. Una vez descargado el módulo no se vuelve a cargar hasta reparar.</td></tr>
 <tr><td><span class="state state--rojo">Rojo</span></td><td>&gt; 6 mm, cizalladura, soldadura rota, pandeo</td><td>&gt; 10 mm o diagonal doblada</td><td>Descarga inmediata de los niveles afectados, balizar el pasillo y reparar antes de reutilizar.</td></tr>
 </tbody></table></div>
+<p>Si su empresa usa la terminología de «racks», es lo mismo: inspección de racks de almacenamiento, inspección de estanterías de paletización o ITE de estanterías metálicas son el mismo servicio bajo la UNE-EN 15635.</p>
 <p>Además de la deformación, la inspección revisa los elementos que suelen fallar antes que el acero: pasadores de seguridad ausentes, anclajes flojos o arrancados, placas base dobladas, largueros sobrecargados con flecha permanente y placas de características que ya no corresponden a la configuración real.</p>
 `),
   steps4('Cómo se hace una inspección Almar-Rack', [
     ['Recorrido y medición', 'Calle por calle, con regla de 1 m y galga en cada puntal, distanciómetro para desplomes y comprobación de pasadores y anclajes.'],
-    ['Clasificación in situ', 'Cada daño se etiqueta con adhesivo de color sobre el puntal y se fotografía con escala para que el jefe de almacén lo localice sin buscar.'],
+    ['Clasificación in situ', 'Cada daño se marca con una etiqueta de inspección de color sobre el puntal y se fotografía con escala para que el jefe de almacén lo localice sin buscar.'],
     ['Informe pericial', 'Plano con georreferencia calle-módulo-nivel, listado de no conformidades, plazos y presupuesto de reparación por elemento.'],
     ['Certificado y seguimiento', 'Certificado firmado para su archivo de PRL, actualización de placas si procede y recordatorio de la próxima inspección.'],
   ]),
@@ -89,6 +91,10 @@ const inspeccion = compose({
     'Informe con validez documental ante ITSS, mutuas y aseguradoras',
     'Presupuesto de reparación por elemento en el mismo informe, sin sorpresas',
   ], true),
+  prose(`
+<h2 lang="en">Pallet rack inspection services in Spain</h2>
+<p lang="en">Almar-Rack provides independent, multi-brand warehouse rack safety inspections across Spain in accordance with EN 15635, with a full inspection report (damage map, photos, green/amber/red classification), an inspection certificate accepted by the Spanish Labour Inspectorate and insurers, and on-site repair without unloading pallets. English-speaking coordination available for international operators. Contact us on WhatsApp at +34 660 82 34 82.</p>
+`),
 ]);
 
 /* =================================================================== 2. REPARACIÓN */
@@ -131,6 +137,7 @@ const reparacion = compose({
     'Recambio de largueros, diagonales, pasadores de seguridad y placas base',
     'Reanclaje con taco químico o mecánico según solera',
     'Actualización de la placa de características si cambia la configuración',
+    'Instalación de <a href="/protecciones-estanterias-industriales/" style="text-decoration:underline">protectores de puntales MPM</a> tras la reparación para que el golpe no se repita',
   ]),
   gallery([
     ['dano-puntal-base-golpe', 'Puntal con base deformada por impacto de carretilla', 'Base de puntal golpeada', 'Antes de la sustitución'],
@@ -147,7 +154,7 @@ const protecciones = compose({
   title: 'Protecciones para estanterías industriales MPM · Puntales, barreras y pasos peatonales | Almar-Rack',
   description: 'Distribuidor e instalador oficial de protecciones MPM Flexible Protections: protectores de puntal, barreras de pasillo, cabeceras, bolardos, defensas de muelle, barandillas y pasos peatonales de polímero que absorbe el impacto. Instalación sin parar la operativa en Guadalajara, Madrid y toda España.',
   h1: 'Protecciones MPM para estanterías, pasillos y muelles',
-  lead: 'Nueve de cada diez daños en una estantería empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Flexible Protections, suministramos y montamos protecciones de polímero que absorben el golpe, recuperan su forma y no transmiten el impacto a la solera.',
+  lead: 'Nueve de cada diez daños en una estantería empiezan con una carretilla en una cabecera. Como distribuidor e instalador oficial de MPM Protecciones Flexibles (MPM Flexible Protections), suministramos y montamos protecciones de polímero que absorben el golpe, recuperan su forma y no transmiten el impacto a la solera.',
   img: 'protecciones-pasillo-puntales', imgAlt: 'Pasillo de estanterías con protectores de puntal MPM amarillos instalados', imgCap: 'Protectores de puntal MPM en pasillo de paletización',
   ctaH: '¿Quiere dejar de reparar los mismos puntales cada mes?', ctaP: 'Mándenos fotos de las cabeceras y pasillos más castigados. Le proponemos un plan de protecciones con presupuesto cerrado.',
   faq: [
@@ -230,7 +237,7 @@ const montaje = compose({
   short: 'Montaje de estanterías',
   serviceName: 'Montaje de estanterías industriales',
   title: 'Empresa de montaje de estanterías industriales y metálicas · Paletización, picking, cantilever | Almar-Rack',
-  description: 'Montaje certificado de estanterías industriales: paletización convencional y compacta, picking, carga ligera y cantilever. Replanteo, nivelado láser, anclaje químico, placas de carga y certificado de montaje. Multimarca. Guadalajara, Madrid y toda España.',
+  description: 'Empresa de montaje de estanterías industriales y metálicas: paletización convencional, compacta y selectiva, picking, carga ligera y cantilever; sistemas con tornillos y de enganche sin tornillos; Mecalux, AR Racking, Esmena y cualquier marca. Replanteo, nivelado láser, anclaje químico, placas de carga y certificado de montaje. Multimarca. Guadalajara, Madrid y toda España.',
   h1: 'Empresa de montaje de estanterías industriales',
   lead: 'Montamos estanterías nuevas o de segunda mano de cualquier fabricante con el mismo criterio con el que luego las inspeccionamos: replanteo sobre plano, nivelado láser, anclaje según solera y entrega con placas de carga y certificado de montaje conforme a la UNE-EN 15635.',
   img: 'protecciones-nave-altura', imgAlt: 'Montadores de Almar-Rack en plataforma elevadora instalando largueros en estantería de gran altura', imgCap: 'Montaje en altura con plataforma elevadora',
@@ -253,11 +260,12 @@ const montaje = compose({
     ['Equipo', 'Montadores propios con formación en trabajos en altura y plataformas elevadoras'],
   ]),
   splitSec('entreplanta-forjado-montaje', 'Bastidores y largueros de estantería acopiados en nave antes del montaje', 'Material acopiado antes del montaje', 'Sistemas que montamos', 'Elegimos el sistema por la rotación, el tipo de palé y las carretillas que usa, no por catálogo.', [
-    'Paletización convencional: acceso directo a cada palé, la más versátil',
+    'Estanterías de paletización convencional (selectiva): acceso directo a cada palé, la más versátil',
     'Compacta drive-in y push-back: máxima densidad para pocas referencias',
     'Dinámica por gravedad: FIFO para alimentación y frío',
     'Picking y carga ligera: preparación de pedidos y almacén de recambios',
     'Cantilever: perfiles, tubos y cargas largas',
+    'Sistemas atornillados y de enganche sin tornillos (Mecalux, AR Racking, Esmena, Permar, Polypal, Stow, Jungheinrich, SSI Schäfer)',
   ], true),
   gallery([
     ['protecciones-nave-fragadis', 'Nave logística con alineaciones de estantería de paletización y protecciones amarillas', 'Paletización convencional', 'Nave logística'],
@@ -303,9 +311,9 @@ const entreplantas = compose({
   slug: '/entreplantas-altillos-metalicos/',
   short: 'Entreplantas y altillos',
   serviceName: 'Entreplantas y altillos metálicos industriales',
-  title: 'Entreplantas y altillos metálicos para naves industriales · Montaje llave en mano | Almar-Rack',
+  title: 'Entreplantas y altillos metálicos desmontables para naves industriales · Precio y montaje llave en mano | Almar-Rack',
   description: 'Diseño, suministro y montaje de entreplantas y altillos metálicos desmontables para naves industriales: estructura, forjado, barandillas, escaleras y puertas de carga. Duplique su superficie útil sin obra. Guadalajara, Madrid y toda España.',
-  h1: 'Entreplantas y altillos metálicos',
+  h1: 'Entreplantas y altillos metálicos desmontables',
   lead: 'Cuando la nave se queda pequeña, la solución más rápida no es mudarse: es aprovechar la altura. Montamos entreplantas metálicas desmontables con forjado, barandillas, escaleras y puertas de carga, dimensionadas para la carga real que va a soportar.',
   img: 'entreplanta-vista-general', imgAlt: 'Entreplanta metálica con barandilla amarilla y pilares azules en nave industrial', imgCap: 'Entreplanta metálica sobre zona de palés',
   ctaH: '¿Necesita más superficie sin ampliar la nave?', ctaP: 'Con las medidas de la nave, la altura libre y el uso previsto le proponemos una entreplanta con presupuesto cerrado.',
@@ -318,7 +326,7 @@ const entreplantas = compose({
   ],
 }, [
   plateRows('Ficha de la entreplanta', [
-    ['Estructura', 'Pilares y vigas de acero atornillados, dimensionados por cálculo para la carga de uso'],
+    ['Estructura', 'Estructura de entreplanta metálica con pilares y vigas de acero atornillados (desmontable y reubicable), dimensionada por cálculo para la carga de uso'],
     ['Forjado', 'Tablero aglomerado hidrófugo de 38 mm, chapa colaborante, rejilla tramex o panel según uso'],
     ['Seguridad', 'Barandillas, rodapiés, puertas basculantes o pallet-gate de carga, escaleras con contrahuella'],
     ['Usos', 'Almacén sobre zona de picking, oficinas técnicas, vestuarios, taller, archivo, mezzanine sobre estanterías'],
@@ -367,7 +375,7 @@ const mantenimiento = compose({
   slug: '/mantenimiento-estanterias-industriales/',
   short: 'Mantenimiento',
   serviceName: 'Mantenimiento preventivo y correctivo de estanterías industriales',
-  title: 'Mantenimiento de estanterías industriales · Preventivo y correctivo | Almar-Rack',
+  title: 'Mantenimiento de estanterías industriales y metálicas · Preventivo y correctivo | Almar-Rack',
   description: 'Planes de mantenimiento anual de estanterías industriales: inspección UNE-EN 15635, revisiones periódicas, reposición de pasadores, anclajes y protecciones, reparación in situ y atención de urgencias 24/48 h. Un solo proveedor para el ciclo completo. Guadalajara, Madrid y toda España.',
   h1: 'Mantenimiento preventivo y correctivo de estanterías',
   lead: 'Una estantería que se mantiene no colapsa. Nuestro plan anual combina la inspección obligatoria, las revisiones intermedias, la reposición de los elementos que se pierden con el uso y la reparación de los golpes antes de que pasen a rojo. Un solo interlocutor, un solo libro de registro.',

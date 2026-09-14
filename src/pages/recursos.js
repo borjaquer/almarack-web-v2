@@ -66,6 +66,7 @@ prses.body = pageHero(prses) + plateRows('Ficha del PRSES', [
 const normFaq = [
   ['¿Qué es la UNE-EN 15635?', 'Es la norma europea (EN 15635, adoptada en España como UNE-EN 15635) que regula el uso y mantenimiento de las estanterías metálicas de almacenamiento: cómo deben usarse, quién es responsable de su seguridad (el PRSES), cómo y cada cuánto deben inspeccionarse, cómo clasificar los daños (verde, ámbar, rojo) y qué hacer en cada caso. No trata el cálculo (eso es la UNE-EN 15512) ni el montaje (UNE-EN 15620).'],
   ['¿La UNE-EN 15635 es de obligado cumplimiento?', 'Por sí misma no, pero el RD 1215/1997 obliga al empresario a mantener los equipos de trabajo seguros y a seguir las «normas técnicas» aplicables; el INSST, en la NTP 852, identifica la UNE-EN 15635 como esa referencia. En la práctica, la Inspección de Trabajo y los tribunales la usan como criterio para determinar si el mantenimiento fue adecuado.'],
+  ['¿Dónde se puede descargar la UNE-EN 15635?', 'Es una norma europea (EN 15635) adoptada en España por UNE; el texto oficial se compra en la tienda de UNE (une.org) o en AENOR y no puede distribuirse gratuitamente. Lo que sí es público es la NTP 852 del INSST, que resume sus criterios y se descarga gratis en insst.es. En esta página tiene explicados los puntos que afectan al usuario de las estanterías.'],
   ['¿Qué diferencia hay entre UNE-EN 15512, 15620 y 15635?', 'La 15512 regula el cálculo y diseño estructural (cuánto aguanta); la 15620 las tolerancias de fabricación y montaje (cómo debe quedar instalada); la 15635 el uso, la inspección y el mantenimiento durante la vida de la instalación (cómo se conserva segura). Almar-Rack trabaja con las tres: monta según 15620, calcula placas según 15512 e inspecciona según 15635.'],
   ['¿Cuál es la sanción por un accidente con una estantería sin mantenimiento?', 'Multa administrativa (LISOS) de 2.451 a 49.180 € por infracción grave y hasta 983.736 € por muy grave; recargo del 30–50 % de las prestaciones de la Seguridad Social a cargo de la empresa; responsabilidad civil por daños; y posible responsabilidad penal de los responsables (arts. 316–317 del Código Penal).'],
 ];
@@ -158,8 +159,8 @@ const checklistPage = {
   slug: '/checklist-revision-estanterias/',
   title: 'Checklist de revisión de estanterías metálicas (PRSES) · Formato de inspección periódica | Almar-Rack',
   description: 'Checklist gratuito para la revisión periódica de estanterías industriales según UNE-EN 15635: puntales, largueros, pasadores, anclajes, placas de carga, protecciones y pasillos. Qué mirar, cómo medir y qué hacer con cada daño. Para el PRSES y el jefe de almacén.',
-  h1: 'Checklist de revisión de estanterías metálicas',
-  lead: 'El formato de revisión periódica que la UNE-EN 15635 pide al PRSES, punto por punto. Imprímalo, recorra las calles y anote el resultado en el libro de registro. Si algo sale en ámbar o rojo, ya sabe a quién llamar.',
+  h1: 'Checklist de revisión de estanterías metálicas (formato de inspección de racks)',
+  lead: 'El formato de revisión periódica que la UNE-EN 15635 pide al PRSES, punto por punto, válido para estanterías de Mecalux, AR Racking, Esmena o cualquier otra marca. Imprímalo, recorra las calles y anote el resultado en el libro de registro. Si algo sale en ámbar o rojo, ya sabe a quién llamar.',
   img: 'inspeccion-tecnico-pasillo', imgAlt: 'Responsable de almacén revisando puntales durante la revisión periódica', imgCap: 'Revisión periódica del PRSES',
   crumbs: [['Inicio', '/'], ['Recursos', '/preguntas-frecuentes/'], ['Checklist de revisión', '/checklist-revision-estanterias/']],
   faq: chkFaq,
