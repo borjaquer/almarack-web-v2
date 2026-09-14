@@ -337,3 +337,6 @@ strong{color:var(--ink)}
 .foot .foot__h{color:var(--orange)}.foot a,.foot p{color:var(--ink-2)}.foot a:hover{color:var(--ink)}
 .foot__brand span{color:var(--ink)}.foot__legal{border-top-color:var(--line);color:var(--ink-3)}
 .wa-float{box-shadow:0 14px 34px -12px rgba(31,184,91,.6)}
+
+/* móvil: hero sin párrafo */
+@media (max-width:620px){.hero .lead{display:none}.hero__cta{margin-top:18px}}
